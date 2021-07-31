@@ -4094,311 +4094,321 @@ Wire Notes Line
 Text Notes 35425 1175 0    100  ~ 20
 ADDRESS DECODERS
 $Comp
-L quantum_arcade_pcb:2KX8_RAM U?
+L quantum_arcade_pcb:2KX8_RAM N_3
 U 1 1 6DD416E2
-P 39625 1975
-F 0 "U?" H 39625 1950 50  0000 C CNN
-F 1 "2KX8_RAM" H 39625 2025 50  0000 C CNN
-F 2 "" H 39625 1975 50  0001 C CNN
-F 3 "" H 39625 1975 50  0001 C CNN
-	1    39625 1975
+P 39600 2075
+F 0 "N_3" H 39600 2050 50  0000 C CNN
+F 1 "2KX8_RAM" H 39600 2125 50  0000 C CNN
+F 2 "" H 39600 2075 50  0001 C CNN
+F 3 "" H 39600 2075 50  0001 C CNN
+	1    39600 2075
 	1    0    0    -1  
 $EndComp
 $Comp
-L quantum_arcade_pcb:2KX8_RAM U?
+L quantum_arcade_pcb:2KX8_RAM M_3
 U 1 1 6DD43EC4
-P 41725 1975
-F 0 "U?" H 41725 1925 50  0000 C CNN
-F 1 "2KX8_RAM" H 41725 2000 50  0000 C CNN
-F 2 "" H 41725 1975 50  0001 C CNN
-F 3 "" H 41725 1975 50  0001 C CNN
-	1    41725 1975
+P 41700 2075
+F 0 "M_3" H 41700 2025 50  0000 C CNN
+F 1 "2KX8_RAM" H 41700 2100 50  0000 C CNN
+F 2 "" H 41700 2075 50  0001 C CNN
+F 3 "" H 41700 2075 50  0001 C CNN
+	1    41700 2075
 	1    0    0    -1  
 $EndComp
 $Comp
-L quantum_arcade_pcb:2KX8_RAM U?
+L quantum_arcade_pcb:2KX8_RAM N_2
 U 1 1 6DD45B39
-P 39725 4250
-F 0 "U?" H 39700 4225 50  0000 C CNN
-F 1 "2KX8_RAM" H 39725 4300 50  0000 C CNN
-F 2 "" H 39725 4250 50  0001 C CNN
-F 3 "" H 39725 4250 50  0001 C CNN
-	1    39725 4250
+P 39700 4350
+F 0 "N_2" H 39675 4325 50  0000 C CNN
+F 1 "2KX8_RAM" H 39700 4400 50  0000 C CNN
+F 2 "" H 39700 4350 50  0001 C CNN
+F 3 "" H 39700 4350 50  0001 C CNN
+	1    39700 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L quantum_arcade_pcb:2KX8_RAM U?
+L quantum_arcade_pcb:2KX8_RAM M_2
 U 1 1 6DD910C1
-P 41800 4250
-F 0 "U?" H 41800 4225 50  0000 C CNN
-F 1 "2KX8_RAM" H 41800 4300 50  0000 C CNN
-F 2 "" H 41800 4250 50  0001 C CNN
-F 3 "" H 41800 4250 50  0001 C CNN
-	1    41800 4250
+P 41775 4350
+F 0 "M_2" H 41775 4325 50  0000 C CNN
+F 1 "2KX8_RAM" H 41775 4400 50  0000 C CNN
+F 2 "" H 41775 4350 50  0001 C CNN
+F 3 "" H 41775 4350 50  0001 C CNN
+	1    41775 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 38925 1525 0    50   Input ~ 0
+Text GLabel 38900 1625 0    50   Input ~ 0
 AB11
-Text GLabel 38925 1825 0    50   Input ~ 0
+Text GLabel 38900 1925 0    50   Input ~ 0
 AB8
-Text GLabel 38925 1925 0    50   Input ~ 0
+Text GLabel 38900 2025 0    50   Input ~ 0
 AB7
-Text GLabel 38925 2125 0    50   Input ~ 0
+Text GLabel 38900 2225 0    50   Input ~ 0
 AB5
-Text GLabel 38925 2425 0    50   Input ~ 0
+Text GLabel 38900 2525 0    50   Input ~ 0
 AB2
-Text GLabel 38925 2525 0    50   Input ~ 0
+Text GLabel 38900 2625 0    50   Input ~ 0
 AB1
-Text GLabel 38925 1625 0    50   Input ~ 0
+Text GLabel 38900 1725 0    50   Input ~ 0
 AB10
-Text GLabel 38925 1725 0    50   Input ~ 0
+Text GLabel 38900 1825 0    50   Input ~ 0
 AB9
-Text GLabel 38925 2025 0    50   Input ~ 0
+Text GLabel 38900 2125 0    50   Input ~ 0
 AB6
-Text GLabel 38925 2225 0    50   Input ~ 0
+Text GLabel 38900 2325 0    50   Input ~ 0
 AB4
-Text GLabel 38925 2325 0    50   Input ~ 0
+Text GLabel 38900 2425 0    50   Input ~ 0
 AB3
-Text GLabel 41025 1525 0    50   Input ~ 0
+Text GLabel 41000 1625 0    50   Input ~ 0
 AB11
-Text GLabel 41025 1825 0    50   Input ~ 0
+Text GLabel 41000 1925 0    50   Input ~ 0
 AB8
-Text GLabel 41025 1925 0    50   Input ~ 0
+Text GLabel 41000 2025 0    50   Input ~ 0
 AB7
-Text GLabel 41025 2125 0    50   Input ~ 0
+Text GLabel 41000 2225 0    50   Input ~ 0
 AB5
-Text GLabel 41025 2425 0    50   Input ~ 0
+Text GLabel 41000 2525 0    50   Input ~ 0
 AB2
-Text GLabel 41025 2525 0    50   Input ~ 0
+Text GLabel 41000 2625 0    50   Input ~ 0
 AB1
-Text GLabel 41025 1625 0    50   Input ~ 0
+Text GLabel 41000 1725 0    50   Input ~ 0
 AB10
-Text GLabel 41025 1725 0    50   Input ~ 0
+Text GLabel 41000 1825 0    50   Input ~ 0
 AB9
-Text GLabel 41025 2025 0    50   Input ~ 0
+Text GLabel 41000 2125 0    50   Input ~ 0
 AB6
-Text GLabel 41025 2225 0    50   Input ~ 0
+Text GLabel 41000 2325 0    50   Input ~ 0
 AB4
-Text GLabel 41025 2325 0    50   Input ~ 0
+Text GLabel 41000 2425 0    50   Input ~ 0
 AB3
-Text GLabel 39025 3800 0    50   Input ~ 0
+Text GLabel 39000 3900 0    50   Input ~ 0
 AB11
-Text GLabel 39025 4100 0    50   Input ~ 0
+Text GLabel 39000 4200 0    50   Input ~ 0
 AB8
-Text GLabel 39025 4200 0    50   Input ~ 0
+Text GLabel 39000 4300 0    50   Input ~ 0
 AB7
-Text GLabel 39025 4400 0    50   Input ~ 0
+Text GLabel 39000 4500 0    50   Input ~ 0
 AB5
-Text GLabel 39025 4700 0    50   Input ~ 0
+Text GLabel 39000 4800 0    50   Input ~ 0
 AB2
-Text GLabel 39025 4800 0    50   Input ~ 0
+Text GLabel 39000 4900 0    50   Input ~ 0
 AB1
-Text GLabel 39025 3900 0    50   Input ~ 0
+Text GLabel 39000 4000 0    50   Input ~ 0
 AB10
-Text GLabel 39025 4000 0    50   Input ~ 0
+Text GLabel 39000 4100 0    50   Input ~ 0
 AB9
-Text GLabel 39025 4300 0    50   Input ~ 0
+Text GLabel 39000 4400 0    50   Input ~ 0
 AB6
-Text GLabel 39025 4500 0    50   Input ~ 0
+Text GLabel 39000 4600 0    50   Input ~ 0
 AB4
-Text GLabel 39025 4600 0    50   Input ~ 0
+Text GLabel 39000 4700 0    50   Input ~ 0
 AB3
-Text GLabel 41100 3800 0    50   Input ~ 0
+Text GLabel 41075 3900 0    50   Input ~ 0
 AB11
-Text GLabel 41100 4100 0    50   Input ~ 0
+Text GLabel 41075 4200 0    50   Input ~ 0
 AB8
-Text GLabel 41100 4200 0    50   Input ~ 0
+Text GLabel 41075 4300 0    50   Input ~ 0
 AB7
-Text GLabel 41100 4400 0    50   Input ~ 0
+Text GLabel 41075 4500 0    50   Input ~ 0
 AB5
-Text GLabel 41100 4700 0    50   Input ~ 0
+Text GLabel 41075 4800 0    50   Input ~ 0
 AB2
-Text GLabel 41100 4800 0    50   Input ~ 0
+Text GLabel 41075 4900 0    50   Input ~ 0
 AB1
-Text GLabel 41100 3900 0    50   Input ~ 0
+Text GLabel 41075 4000 0    50   Input ~ 0
 AB10
-Text GLabel 41100 4000 0    50   Input ~ 0
+Text GLabel 41075 4100 0    50   Input ~ 0
 AB9
-Text GLabel 41100 4300 0    50   Input ~ 0
+Text GLabel 41075 4400 0    50   Input ~ 0
 AB6
-Text GLabel 41100 4500 0    50   Input ~ 0
+Text GLabel 41075 4600 0    50   Input ~ 0
 AB4
-Text GLabel 41100 4600 0    50   Input ~ 0
+Text GLabel 41075 4700 0    50   Input ~ 0
 AB3
 $Comp
 L power:GND #PWR?
 U 1 1 6DF28438
-P 39625 2675
-F 0 "#PWR?" H 39625 2425 50  0001 C CNN
-F 1 "GND" H 39775 2600 50  0000 C CNN
-F 2 "" H 39625 2675 50  0001 C CNN
-F 3 "" H 39625 2675 50  0001 C CNN
-	1    39625 2675
+P 39600 2775
+F 0 "#PWR?" H 39600 2525 50  0001 C CNN
+F 1 "GND" H 39750 2700 50  0000 C CNN
+F 2 "" H 39600 2775 50  0001 C CNN
+F 3 "" H 39600 2775 50  0001 C CNN
+	1    39600 2775
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6DF2B542
-P 41725 2675
-F 0 "#PWR?" H 41725 2425 50  0001 C CNN
-F 1 "GND" H 41875 2600 50  0000 C CNN
-F 2 "" H 41725 2675 50  0001 C CNN
-F 3 "" H 41725 2675 50  0001 C CNN
-	1    41725 2675
+P 41700 2775
+F 0 "#PWR?" H 41700 2525 50  0001 C CNN
+F 1 "GND" H 41850 2700 50  0000 C CNN
+F 2 "" H 41700 2775 50  0001 C CNN
+F 3 "" H 41700 2775 50  0001 C CNN
+	1    41700 2775
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6DF2B9C1
-P 39725 4950
-F 0 "#PWR?" H 39725 4700 50  0001 C CNN
-F 1 "GND" H 39875 4875 50  0000 C CNN
-F 2 "" H 39725 4950 50  0001 C CNN
-F 3 "" H 39725 4950 50  0001 C CNN
-	1    39725 4950
+P 39700 5050
+F 0 "#PWR?" H 39700 4800 50  0001 C CNN
+F 1 "GND" H 39850 4975 50  0000 C CNN
+F 2 "" H 39700 5050 50  0001 C CNN
+F 3 "" H 39700 5050 50  0001 C CNN
+	1    39700 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6DF2BDAC
-P 41800 4950
-F 0 "#PWR?" H 41800 4700 50  0001 C CNN
-F 1 "GND" H 41950 4875 50  0000 C CNN
-F 2 "" H 41800 4950 50  0001 C CNN
-F 3 "" H 41800 4950 50  0001 C CNN
-	1    41800 4950
+P 41775 5050
+F 0 "#PWR?" H 41775 4800 50  0001 C CNN
+F 1 "GND" H 41925 4975 50  0000 C CNN
+F 2 "" H 41775 5050 50  0001 C CNN
+F 3 "" H 41775 5050 50  0001 C CNN
+	1    41775 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6DF2F647
-P 39875 1325
-F 0 "#PWR?" H 39875 1175 50  0001 C CNN
-F 1 "+5V" H 39975 1400 50  0000 C CNN
-F 2 "" H 39875 1325 50  0001 C CNN
-F 3 "" H 39875 1325 50  0001 C CNN
-	1    39875 1325
+P 39850 1425
+F 0 "#PWR?" H 39850 1275 50  0001 C CNN
+F 1 "+5V" H 39950 1500 50  0000 C CNN
+F 2 "" H 39850 1425 50  0001 C CNN
+F 3 "" H 39850 1425 50  0001 C CNN
+	1    39850 1425
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6DF31483
-P 41975 1325
-F 0 "#PWR?" H 41975 1175 50  0001 C CNN
-F 1 "+5V" H 42075 1400 50  0000 C CNN
-F 2 "" H 41975 1325 50  0001 C CNN
-F 3 "" H 41975 1325 50  0001 C CNN
-	1    41975 1325
+P 41950 1425
+F 0 "#PWR?" H 41950 1275 50  0001 C CNN
+F 1 "+5V" H 42050 1500 50  0000 C CNN
+F 2 "" H 41950 1425 50  0001 C CNN
+F 3 "" H 41950 1425 50  0001 C CNN
+	1    41950 1425
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6DF32184
-P 39975 3600
-F 0 "#PWR?" H 39975 3450 50  0001 C CNN
-F 1 "+5V" H 40075 3675 50  0000 C CNN
-F 2 "" H 39975 3600 50  0001 C CNN
-F 3 "" H 39975 3600 50  0001 C CNN
-	1    39975 3600
+P 39950 3700
+F 0 "#PWR?" H 39950 3550 50  0001 C CNN
+F 1 "+5V" H 40050 3775 50  0000 C CNN
+F 2 "" H 39950 3700 50  0001 C CNN
+F 3 "" H 39950 3700 50  0001 C CNN
+	1    39950 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6DF329E4
-P 42050 3600
-F 0 "#PWR?" H 42050 3450 50  0001 C CNN
-F 1 "+5V" H 42150 3675 50  0000 C CNN
-F 2 "" H 42050 3600 50  0001 C CNN
-F 3 "" H 42050 3600 50  0001 C CNN
-	1    42050 3600
+P 42025 3700
+F 0 "#PWR?" H 42025 3550 50  0001 C CNN
+F 1 "+5V" H 42125 3775 50  0000 C CNN
+F 2 "" H 42025 3700 50  0001 C CNN
+F 3 "" H 42025 3700 50  0001 C CNN
+	1    42025 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 40425 3900 2    50   Input ~ 0
+Text GLabel 40400 4000 2    50   Input ~ 0
 MB15
-Text GLabel 40425 4000 2    50   Input ~ 0
+Text GLabel 40400 4100 2    50   Input ~ 0
 MB14
-Text GLabel 40425 4100 2    50   Input ~ 0
+Text GLabel 40400 4200 2    50   Input ~ 0
 MB13
-Text GLabel 40425 4200 2    50   Input ~ 0
+Text GLabel 40400 4300 2    50   Input ~ 0
 MB12
-Text GLabel 40425 4300 2    50   Input ~ 0
+Text GLabel 40400 4400 2    50   Input ~ 0
 MB11
-Text GLabel 40425 4400 2    50   Input ~ 0
+Text GLabel 40400 4500 2    50   Input ~ 0
 MB10
-Text GLabel 40425 4500 2    50   Input ~ 0
+Text GLabel 40400 4600 2    50   Input ~ 0
 MB9
-Text GLabel 40425 4600 2    50   Input ~ 0
+Text GLabel 40400 4700 2    50   Input ~ 0
 MB8
-Text GLabel 42500 3900 2    50   Input ~ 0
+Text GLabel 42475 4000 2    50   Input ~ 0
 MB15
-Text GLabel 42500 4000 2    50   Input ~ 0
+Text GLabel 42475 4100 2    50   Input ~ 0
 MB14
-Text GLabel 42500 4100 2    50   Input ~ 0
+Text GLabel 42475 4200 2    50   Input ~ 0
 MB13
-Text GLabel 42500 4200 2    50   Input ~ 0
+Text GLabel 42475 4300 2    50   Input ~ 0
 MB12
-Text GLabel 42500 4300 2    50   Input ~ 0
+Text GLabel 42475 4400 2    50   Input ~ 0
 MB11
-Text GLabel 42500 4400 2    50   Input ~ 0
+Text GLabel 42475 4500 2    50   Input ~ 0
 MB10
-Text GLabel 42500 4500 2    50   Input ~ 0
+Text GLabel 42475 4600 2    50   Input ~ 0
 MB9
-Text GLabel 42500 4600 2    50   Input ~ 0
+Text GLabel 42475 4700 2    50   Input ~ 0
 MB8
-Text GLabel 41900 3300 1    50   Input ~ 0
+Text GLabel 41875 3400 1    50   Input ~ 0
 ~R~\WB
-Text GLabel 39825 3300 1    50   Input ~ 0
+Text GLabel 39800 3400 1    50   Input ~ 0
 ~R~\WB
-Text GLabel 39725 1025 1    50   Input ~ 0
+Text GLabel 39700 1125 1    50   Input ~ 0
 ~R~\WB
-Text GLabel 41825 1025 1    50   Input ~ 0
+Text GLabel 41800 1125 1    50   Input ~ 0
 ~R~\WB
-Text GLabel 41525 1025 1    50   Input ~ 0
+Text GLabel 41500 1125 1    50   Input ~ 0
 ~RAM1
-Text GLabel 41600 3300 1    50   Input ~ 0
+Text GLabel 41575 3400 1    50   Input ~ 0
 ~RAM1
-Text GLabel 39525 3300 1    50   Input ~ 0
+Text GLabel 39500 3400 1    50   Input ~ 0
 ~RAM0
-Text GLabel 39425 1025 1    50   Input ~ 0
+Text GLabel 39400 1125 1    50   Input ~ 0
 ~RAM0
-Text GLabel 39675 3300 1    50   Input ~ 0
+Text GLabel 39650 3400 1    50   Input ~ 0
 ~WEU
-Text GLabel 39575 1025 1    50   Input ~ 0
+Text GLabel 39550 1125 1    50   Input ~ 0
 ~WEL
-Text GLabel 41750 3300 1    50   Input ~ 0
+Text GLabel 41725 3400 1    50   Input ~ 0
 ~WEU
-Text GLabel 41675 1025 1    50   Input ~ 0
+Text GLabel 41650 1125 1    50   Input ~ 0
 ~WEL
-Text GLabel 40325 1625 2    50   Input ~ 0
+Text GLabel 40300 1725 2    50   Input ~ 0
 MB7
-Text GLabel 40325 1725 2    50   Input ~ 0
+Text GLabel 40300 1825 2    50   Input ~ 0
 MB6
-Text GLabel 40325 1825 2    50   Input ~ 0
+Text GLabel 40300 1925 2    50   Input ~ 0
 MB5
-Text GLabel 40325 1925 2    50   Input ~ 0
+Text GLabel 40300 2025 2    50   Input ~ 0
 MB4
-Text GLabel 40325 2025 2    50   Input ~ 0
+Text GLabel 40300 2125 2    50   Input ~ 0
 MB3
-Text GLabel 40325 2125 2    50   Input ~ 0
+Text GLabel 40300 2225 2    50   Input ~ 0
 MB2
-Text GLabel 40325 2225 2    50   Input ~ 0
+Text GLabel 40300 2325 2    50   Input ~ 0
 MB1
-Text GLabel 40325 2325 2    50   Input ~ 0
+Text GLabel 40300 2425 2    50   Input ~ 0
 MB0
-Text GLabel 42425 1625 2    50   Input ~ 0
+Text GLabel 42400 1725 2    50   Input ~ 0
 MB7
-Text GLabel 42425 1725 2    50   Input ~ 0
+Text GLabel 42400 1825 2    50   Input ~ 0
 MB6
-Text GLabel 42425 1825 2    50   Input ~ 0
+Text GLabel 42400 1925 2    50   Input ~ 0
 MB5
-Text GLabel 42425 1925 2    50   Input ~ 0
+Text GLabel 42400 2025 2    50   Input ~ 0
 MB4
-Text GLabel 42425 2025 2    50   Input ~ 0
+Text GLabel 42400 2125 2    50   Input ~ 0
 MB3
-Text GLabel 42425 2125 2    50   Input ~ 0
+Text GLabel 42400 2225 2    50   Input ~ 0
 MB2
-Text GLabel 42425 2225 2    50   Input ~ 0
+Text GLabel 42400 2325 2    50   Input ~ 0
 MB1
-Text GLabel 42425 2325 2    50   Input ~ 0
+Text GLabel 42400 2425 2    50   Input ~ 0
 MB0
+Text Notes 40075 1050 0    100  ~ 20
+PROGRAM RAM
+Wire Notes Line
+	38525 750  38525 5350
+Wire Notes Line
+	38525 5350 42775 5350
+Wire Notes Line
+	42775 5350 42775 750 
+Wire Notes Line
+	42775 750  38525 750 
 $EndSCHEMATC
