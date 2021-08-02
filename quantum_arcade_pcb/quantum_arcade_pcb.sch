@@ -3493,39 +3493,6 @@ F 3 "" H 30300 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quantum_arcade_pcb:LS245B N_1
-U 1 1 6C8FD8AA
-P 30300 3700
-F 0 "N_1" H 30300 3900 50  0000 C CNN
-F 1 "LS245B" H 30300 4000 50  0000 C CNN
-F 2 "" H 30300 3700 50  0001 C CNN
-F 3 "" H 30300 3700 50  0001 C CNN
-	1    30300 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0176
-U 1 1 6C901E2A
-P 30450 3150
-F 0 "#PWR0176" H 30450 3000 50  0001 C CNN
-F 1 "+5V" H 30550 3225 50  0000 C CNN
-F 2 "" H 30450 3150 50  0001 C CNN
-F 3 "" H 30450 3150 50  0001 C CNN
-	1    30450 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0177
-U 1 1 6C902683
-P 30450 4250
-F 0 "#PWR0177" H 30450 4000 50  0001 C CNN
-F 1 "GND" H 30600 4175 50  0000 C CNN
-F 2 "" H 30450 4250 50  0001 C CNN
-F 3 "" H 30450 4250 50  0001 C CNN
-	1    30450 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0178
 U 1 1 6C902B58
 P 30450 2500
@@ -3558,17 +3525,6 @@ F 3 "" H 30200 2700 50  0001 C CNN
 	1    30200 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0181
-U 1 1 6C904146
-P 30200 4450
-F 0 "#PWR0181" H 30200 4200 50  0001 C CNN
-F 1 "GND" H 30350 4375 50  0000 C CNN
-F 2 "" H 30200 4450 50  0001 C CNN
-F 3 "" H 30200 4450 50  0001 C CNN
-	1    30200 4450
-	1    0    0    -1  
-$EndComp
 Text GLabel 30025 2750 0    50   Input ~ 0
 R\~W~B
 Wire Wire Line
@@ -3577,8 +3533,6 @@ Wire Wire Line
 	30100 2750 30025 2750
 Text GLabel 30000 4500 0    50   Input ~ 0
 R\~W~B
-Wire Wire Line
-	30100 4450 30100 4500
 Wire Wire Line
 	30100 4500 30000 4500
 Text GLabel 31000 1600 2    50   Input ~ 0
@@ -4411,4 +4365,3102 @@ Wire Notes Line
 	42775 5350 42775 750 
 Wire Notes Line
 	42775 750  38525 750 
+$Comp
+L Star_Wars_Vector_PCB:LS74 R_2
+U 1 1 610B9C77
+P 3775 9300
+F 0 "R_2" H 3700 9275 50  0000 L CNN
+F 1 "LS74" H 3700 9350 50  0000 L CNN
+F 2 "" H 3800 9050 300 0001 C CNN
+F 3 "" H 3800 9050 300 0001 C CNN
+	1    3775 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LS74 R_2
+U 2 1 610C1163
+P 5325 9300
+F 0 "R_2" H 5325 9275 50  0000 C CNN
+F 1 "LS74" H 5325 9350 50  0000 C CNN
+F 2 "" H 5350 9050 300 0001 C CNN
+F 3 "" H 5350 9050 300 0001 C CNN
+	2    5325 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 610C42ED
+P 3825 9875
+F 0 "#PWR0201" H 3825 9625 50  0001 C CNN
+F 1 "GND" H 3975 9850 50  0000 C CNN
+F 2 "" H 3825 9875 50  0001 C CNN
+F 3 "" H 3825 9875 50  0001 C CNN
+	1    3825 9875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0202
+U 1 1 610C8F9B
+P 3825 8725
+F 0 "#PWR0202" H 3825 8575 50  0001 C CNN
+F 1 "+5V" H 3950 8750 50  0000 C CNN
+F 2 "" H 3825 8725 50  0001 C CNN
+F 3 "" H 3825 8725 50  0001 C CNN
+	1    3825 8725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LS32 N_4
+U 1 2 610CA695
+P 2425 9225
+F 0 "N_4" H 2400 9300 50  0000 L CNN
+F 1 "S32" H 2375 9200 50  0000 L CNN
+F 2 "" H 2425 9225 50  0001 C CNN
+F 3 "" H 2425 9225 50  0001 C CNN
+	1    2425 9225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0203
+U 1 1 61119C36
+P 2300 9025
+F 0 "#PWR0203" H 2300 8875 50  0001 C CNN
+F 1 "+5V" H 2315 9198 50  0000 C CNN
+F 2 "" H 2300 9025 50  0001 C CNN
+F 3 "" H 2300 9025 50  0001 C CNN
+	1    2300 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 6111A1AF
+P 2300 9425
+F 0 "#PWR0204" H 2300 9175 50  0001 C CNN
+F 1 "GND" H 2305 9252 50  0000 C CNN
+F 2 "" H 2300 9425 50  0001 C CNN
+F 3 "" H 2300 9425 50  0001 C CNN
+	1    2300 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LS00 P_4
+U 3 1 6111B2CD
+P 5500 8325
+F 0 "P_4" H 5500 8375 50  0000 C CNN
+F 1 "LS00" H 5500 8275 50  0000 C CNN
+F 2 "" H 5500 8325 50  0001 C CNN
+F 3 "" H 5500 8325 50  0001 C CNN
+	3    5500 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LS04 F/H_4
+U 3 1 6111C7A3
+P 6675 8325
+F 0 "F/H_4" H 6850 8450 50  0000 C CNN
+F 1 "LS04" H 6625 8300 50  0000 C CNN
+F 2 "" H 6675 8325 50  0001 C CNN
+F 3 "" H 6675 8325 50  0001 C CNN
+	3    6675 8325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 8325 6100 8325
+Text GLabel 7175 8325 2    50   Input ~ 0
+~DTACK
+Wire Wire Line
+	7175 8325 7125 8325
+Wire Wire Line
+	4750 9225 4525 9225
+Wire Wire Line
+	4900 8425 4525 8425
+Wire Wire Line
+	4525 8425 4525 8700
+Connection ~ 4525 9225
+Wire Wire Line
+	4525 9225 4350 9225
+Text GLabel 4675 8700 2    50   Input ~ 0
+~MTDACK
+Wire Wire Line
+	4675 8700 4525 8700
+Connection ~ 4525 8700
+Wire Wire Line
+	4525 8700 4525 9225
+Text GLabel 5275 8725 1    50   Input ~ 0
+AS
+Text GLabel 5275 9875 3    50   Input ~ 0
+PR218
+Text GLabel 4750 9375 0    50   Input ~ 0
+6M
+NoConn ~ 4350 9375
+NoConn ~ 5900 9375
+NoConn ~ 5900 9225
+Text GLabel 3725 9875 3    50   Input ~ 0
+PR218
+Text GLabel 3725 8725 1    50   Input ~ 0
+PR218
+Text GLabel 4800 8225 0    50   Input ~ 0
+~DTACK
+Wire Wire Line
+	4900 8225 4800 8225
+Wire Wire Line
+	3200 9225 3025 9225
+Text GLabel 3150 9375 0    50   Input ~ 0
+6M
+Wire Wire Line
+	3200 9375 3150 9375
+Text GLabel 1750 9325 0    50   Input ~ 0
+~AS
+Wire Wire Line
+	1825 9325 1750 9325
+Text GLabel 1750 9125 0    50   Input ~ 0
+A23
+Wire Wire Line
+	1825 9125 1750 9125
+Text Notes 1850 8300 0    100  ~ 20
+DATA TRANSFER ACK GENERATOR
+Wire Notes Line
+	7525 7725 7525 10325
+Wire Notes Line
+	7525 10325 1400 10325
+Wire Notes Line
+	1400 10325 1400 7725
+Wire Notes Line
+	1400 7725 7525 7725
+Text Notes 5975 9250 0    50   ~ 0
+CHECK THIS!!!
+$Comp
+L quantum_arcade_pcb:8KX8_ROM E_3
+U 1 1 61765373
+P 35250 6875
+F 0 "E_3" H 35250 6925 50  0000 C CNN
+F 1 "8KX8_ROM" H 35275 7000 50  0000 C CNN
+F 2 "" H 35250 7225 50  0001 C CNN
+F 3 "" H 35250 7225 50  0001 C CNN
+	1    35250 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L quantum_arcade_pcb:8KX8_ROM F_3
+U 1 1 6176C7C6
+P 37175 6875
+F 0 "F_3" H 37175 6925 50  0000 C CNN
+F 1 "8KX8_ROM" H 37200 7000 50  0000 C CNN
+F 2 "" H 37175 7225 50  0001 C CNN
+F 3 "" H 37175 7225 50  0001 C CNN
+	1    37175 6875
+	1    0    0    -1  
+$EndComp
+Text GLabel 36475 6375 0    50   Input ~ 0
+AB13
+Text GLabel 36475 6475 0    50   Input ~ 0
+AB12
+Text GLabel 36475 6575 0    50   Input ~ 0
+AB11
+Text GLabel 36475 6675 0    50   Input ~ 0
+AB10
+Text GLabel 36475 6775 0    50   Input ~ 0
+AB9
+Text GLabel 36475 6875 0    50   Input ~ 0
+AB8
+Text GLabel 36475 6975 0    50   Input ~ 0
+AB7
+Text GLabel 36475 7075 0    50   Input ~ 0
+AB6
+Text GLabel 36475 7175 0    50   Input ~ 0
+AB5
+Text GLabel 36475 7275 0    50   Input ~ 0
+AB4
+Text GLabel 36475 7375 0    50   Input ~ 0
+AB3
+Text GLabel 36475 7575 0    50   Input ~ 0
+AB1
+Text GLabel 36475 7475 0    50   Input ~ 0
+AB2
+Text GLabel 35950 6525 2    50   Input ~ 0
+MB7
+Text GLabel 35950 6625 2    50   Input ~ 0
+MB6
+Text GLabel 35950 6725 2    50   Input ~ 0
+MB5
+Text GLabel 35950 6825 2    50   Input ~ 0
+MB4
+Text GLabel 35950 6925 2    50   Input ~ 0
+MB3
+Text GLabel 35950 7025 2    50   Input ~ 0
+MB2
+Text GLabel 35950 7125 2    50   Input ~ 0
+MB1
+Text GLabel 35950 7225 2    50   Input ~ 0
+MB0
+$Comp
+L power:+5V #PWR0176
+U 1 1 6C901E2A
+P 30450 3150
+F 0 "#PWR0176" H 30450 3000 50  0001 C CNN
+F 1 "+5V" H 30550 3225 50  0000 C CNN
+F 2 "" H 30450 3150 50  0001 C CNN
+F 3 "" H 30450 3150 50  0001 C CNN
+	1    30450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0177
+U 1 1 6C902683
+P 30450 4250
+F 0 "#PWR0177" H 30450 4000 50  0001 C CNN
+F 1 "GND" H 30600 4175 50  0000 C CNN
+F 2 "" H 30450 4250 50  0001 C CNN
+F 3 "" H 30450 4250 50  0001 C CNN
+	1    30450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	30100 4450 30100 4500
+$Comp
+L quantum_arcade_pcb:LS245B N_1
+U 1 1 6C8FD8AA
+P 30300 3700
+F 0 "N_1" H 30300 3900 50  0000 C CNN
+F 1 "LS245B" H 30300 4000 50  0000 C CNN
+F 2 "" H 30300 3700 50  0001 C CNN
+F 3 "" H 30300 3700 50  0001 C CNN
+	1    30300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0181
+U 1 1 6C904146
+P 30200 4450
+F 0 "#PWR0181" H 30200 4200 50  0001 C CNN
+F 1 "GND" H 30350 4375 50  0000 C CNN
+F 2 "" H 30200 4450 50  0001 C CNN
+F 3 "" H 30200 4450 50  0001 C CNN
+	1    30200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0205
+U 1 1 6180CADF
+P 35450 7675
+F 0 "#PWR0205" H 35450 7425 50  0001 C CNN
+F 1 "GND" H 35600 7600 50  0000 C CNN
+F 2 "" H 35450 7675 50  0001 C CNN
+F 3 "" H 35450 7675 50  0001 C CNN
+	1    35450 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0206
+U 1 1 6180F3A2
+P 37375 7675
+F 0 "#PWR0206" H 37375 7425 50  0001 C CNN
+F 1 "GND" H 37525 7600 50  0000 C CNN
+F 2 "" H 37375 7675 50  0001 C CNN
+F 3 "" H 37375 7675 50  0001 C CNN
+	1    37375 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0207
+U 1 1 61811C14
+P 35450 6225
+F 0 "#PWR0207" H 35450 6075 50  0001 C CNN
+F 1 "+5V" H 35550 6300 50  0000 C CNN
+F 2 "" H 35450 6225 50  0001 C CNN
+F 3 "" H 35450 6225 50  0001 C CNN
+	1    35450 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0208
+U 1 1 618141C6
+P 37375 6225
+F 0 "#PWR0208" H 37375 6075 50  0001 C CNN
+F 1 "+5V" H 37475 6300 50  0000 C CNN
+F 2 "" H 37375 6225 50  0001 C CNN
+F 3 "" H 37375 6225 50  0001 C CNN
+	1    37375 6225
+	1    0    0    -1  
+$EndComp
+Text GLabel 34550 6375 0    50   Input ~ 0
+AB13
+Text GLabel 34550 6475 0    50   Input ~ 0
+AB12
+Text GLabel 34550 6575 0    50   Input ~ 0
+AB11
+Text GLabel 34550 6675 0    50   Input ~ 0
+AB10
+Text GLabel 34550 6775 0    50   Input ~ 0
+AB9
+Text GLabel 34550 6875 0    50   Input ~ 0
+AB8
+Text GLabel 34550 6975 0    50   Input ~ 0
+AB7
+Text GLabel 34550 7075 0    50   Input ~ 0
+AB6
+Text GLabel 34550 7175 0    50   Input ~ 0
+AB5
+Text GLabel 34550 7275 0    50   Input ~ 0
+AB4
+Text GLabel 34550 7375 0    50   Input ~ 0
+AB3
+Text GLabel 34550 7575 0    50   Input ~ 0
+AB1
+Text GLabel 34550 7475 0    50   Input ~ 0
+AB2
+Text GLabel 37875 6525 2    50   Input ~ 0
+MB7
+Text GLabel 37875 6625 2    50   Input ~ 0
+MB6
+Text GLabel 37875 6725 2    50   Input ~ 0
+MB5
+Text GLabel 37875 6825 2    50   Input ~ 0
+MB4
+Text GLabel 37875 6925 2    50   Input ~ 0
+MB3
+Text GLabel 37875 7025 2    50   Input ~ 0
+MB2
+Text GLabel 37875 7125 2    50   Input ~ 0
+MB1
+Text GLabel 37875 7225 2    50   Input ~ 0
+MB0
+$Comp
+L power:+5V #PWR0209
+U 1 1 618AC3D5
+P 35250 5925
+F 0 "#PWR0209" H 35250 5775 50  0001 C CNN
+F 1 "+5V" H 35350 6000 50  0000 C CNN
+F 2 "" H 35250 5925 50  0001 C CNN
+F 3 "" H 35250 5925 50  0001 C CNN
+	1    35250 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0210
+U 1 1 618AC7B9
+P 35050 5925
+F 0 "#PWR0210" H 35050 5775 50  0001 C CNN
+F 1 "+5V" H 35150 6000 50  0000 C CNN
+F 2 "" H 35050 5925 50  0001 C CNN
+F 3 "" H 35050 5925 50  0001 C CNN
+	1    35050 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0211
+U 1 1 618ACAAE
+P 36975 5925
+F 0 "#PWR0211" H 36975 5775 50  0001 C CNN
+F 1 "+5V" H 37075 6000 50  0000 C CNN
+F 2 "" H 36975 5925 50  0001 C CNN
+F 3 "" H 36975 5925 50  0001 C CNN
+	1    36975 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0212
+U 1 1 618AD218
+P 37175 5925
+F 0 "#PWR0212" H 37175 5775 50  0001 C CNN
+F 1 "+5V" H 37275 6000 50  0000 C CNN
+F 2 "" H 37175 5925 50  0001 C CNN
+F 3 "" H 37175 5925 50  0001 C CNN
+	1    37175 5925
+	1    0    0    -1  
+$EndComp
+Text GLabel 35250 7975 3    50   Input ~ 0
+~R~\WB
+Text GLabel 35050 7975 3    50   Input ~ 0
+~ROM0
+Text GLabel 37175 7975 3    50   Input ~ 0
+~R~\WB
+Text GLabel 36975 7975 3    50   Input ~ 0
+~ROM1
+$Comp
+L quantum_arcade_pcb:8KX8_ROM H/J_3
+U 1 1 61917287
+P 39100 6875
+F 0 "H/J_3" H 39100 6925 50  0000 C CNN
+F 1 "8KX8_ROM" H 39125 7000 50  0000 C CNN
+F 2 "" H 39100 7225 50  0001 C CNN
+F 3 "" H 39100 7225 50  0001 C CNN
+	1    39100 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L quantum_arcade_pcb:8KX8_ROM K_3
+U 1 1 6191728D
+P 41025 6875
+F 0 "K_3" H 41025 6925 50  0000 C CNN
+F 1 "8KX8_ROM" H 41050 7000 50  0000 C CNN
+F 2 "" H 41025 7225 50  0001 C CNN
+F 3 "" H 41025 7225 50  0001 C CNN
+	1    41025 6875
+	1    0    0    -1  
+$EndComp
+Text GLabel 40325 6375 0    50   Input ~ 0
+AB13
+Text GLabel 40325 6475 0    50   Input ~ 0
+AB12
+Text GLabel 40325 6575 0    50   Input ~ 0
+AB11
+Text GLabel 40325 6675 0    50   Input ~ 0
+AB10
+Text GLabel 40325 6775 0    50   Input ~ 0
+AB9
+Text GLabel 40325 6875 0    50   Input ~ 0
+AB8
+Text GLabel 40325 6975 0    50   Input ~ 0
+AB7
+Text GLabel 40325 7075 0    50   Input ~ 0
+AB6
+Text GLabel 40325 7175 0    50   Input ~ 0
+AB5
+Text GLabel 40325 7275 0    50   Input ~ 0
+AB4
+Text GLabel 40325 7375 0    50   Input ~ 0
+AB3
+Text GLabel 40325 7575 0    50   Input ~ 0
+AB1
+Text GLabel 40325 7475 0    50   Input ~ 0
+AB2
+Text GLabel 39800 6525 2    50   Input ~ 0
+MB7
+Text GLabel 39800 6625 2    50   Input ~ 0
+MB6
+Text GLabel 39800 6725 2    50   Input ~ 0
+MB5
+Text GLabel 39800 6825 2    50   Input ~ 0
+MB4
+Text GLabel 39800 6925 2    50   Input ~ 0
+MB3
+Text GLabel 39800 7025 2    50   Input ~ 0
+MB2
+Text GLabel 39800 7125 2    50   Input ~ 0
+MB1
+Text GLabel 39800 7225 2    50   Input ~ 0
+MB0
+$Comp
+L power:GND #PWR0213
+U 1 1 619172A8
+P 39300 7675
+F 0 "#PWR0213" H 39300 7425 50  0001 C CNN
+F 1 "GND" H 39450 7600 50  0000 C CNN
+F 2 "" H 39300 7675 50  0001 C CNN
+F 3 "" H 39300 7675 50  0001 C CNN
+	1    39300 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0214
+U 1 1 619172AE
+P 41225 7675
+F 0 "#PWR0214" H 41225 7425 50  0001 C CNN
+F 1 "GND" H 41375 7600 50  0000 C CNN
+F 2 "" H 41225 7675 50  0001 C CNN
+F 3 "" H 41225 7675 50  0001 C CNN
+	1    41225 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0215
+U 1 1 619172B4
+P 39300 6225
+F 0 "#PWR0215" H 39300 6075 50  0001 C CNN
+F 1 "+5V" H 39400 6300 50  0000 C CNN
+F 2 "" H 39300 6225 50  0001 C CNN
+F 3 "" H 39300 6225 50  0001 C CNN
+	1    39300 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0216
+U 1 1 619172BA
+P 41225 6225
+F 0 "#PWR0216" H 41225 6075 50  0001 C CNN
+F 1 "+5V" H 41325 6300 50  0000 C CNN
+F 2 "" H 41225 6225 50  0001 C CNN
+F 3 "" H 41225 6225 50  0001 C CNN
+	1    41225 6225
+	1    0    0    -1  
+$EndComp
+Text GLabel 38400 6375 0    50   Input ~ 0
+AB13
+Text GLabel 38400 6475 0    50   Input ~ 0
+AB12
+Text GLabel 38400 6575 0    50   Input ~ 0
+AB11
+Text GLabel 38400 6675 0    50   Input ~ 0
+AB10
+Text GLabel 38400 6775 0    50   Input ~ 0
+AB9
+Text GLabel 38400 6875 0    50   Input ~ 0
+AB8
+Text GLabel 38400 6975 0    50   Input ~ 0
+AB7
+Text GLabel 38400 7075 0    50   Input ~ 0
+AB6
+Text GLabel 38400 7175 0    50   Input ~ 0
+AB5
+Text GLabel 38400 7275 0    50   Input ~ 0
+AB4
+Text GLabel 38400 7375 0    50   Input ~ 0
+AB3
+Text GLabel 38400 7575 0    50   Input ~ 0
+AB1
+Text GLabel 38400 7475 0    50   Input ~ 0
+AB2
+Text GLabel 41725 6525 2    50   Input ~ 0
+MB7
+Text GLabel 41725 6625 2    50   Input ~ 0
+MB6
+Text GLabel 41725 6725 2    50   Input ~ 0
+MB5
+Text GLabel 41725 6825 2    50   Input ~ 0
+MB4
+Text GLabel 41725 6925 2    50   Input ~ 0
+MB3
+Text GLabel 41725 7025 2    50   Input ~ 0
+MB2
+Text GLabel 41725 7125 2    50   Input ~ 0
+MB1
+Text GLabel 41725 7225 2    50   Input ~ 0
+MB0
+$Comp
+L power:+5V #PWR0217
+U 1 1 619172D5
+P 39100 5925
+F 0 "#PWR0217" H 39100 5775 50  0001 C CNN
+F 1 "+5V" H 39200 6000 50  0000 C CNN
+F 2 "" H 39100 5925 50  0001 C CNN
+F 3 "" H 39100 5925 50  0001 C CNN
+	1    39100 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0218
+U 1 1 619172DB
+P 38900 5925
+F 0 "#PWR0218" H 38900 5775 50  0001 C CNN
+F 1 "+5V" H 39000 6000 50  0000 C CNN
+F 2 "" H 38900 5925 50  0001 C CNN
+F 3 "" H 38900 5925 50  0001 C CNN
+	1    38900 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0219
+U 1 1 619172E1
+P 40825 5925
+F 0 "#PWR0219" H 40825 5775 50  0001 C CNN
+F 1 "+5V" H 40925 6000 50  0000 C CNN
+F 2 "" H 40825 5925 50  0001 C CNN
+F 3 "" H 40825 5925 50  0001 C CNN
+	1    40825 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0220
+U 1 1 619172E7
+P 41025 5925
+F 0 "#PWR0220" H 41025 5775 50  0001 C CNN
+F 1 "+5V" H 41125 6000 50  0000 C CNN
+F 2 "" H 41025 5925 50  0001 C CNN
+F 3 "" H 41025 5925 50  0001 C CNN
+	1    41025 5925
+	1    0    0    -1  
+$EndComp
+Text GLabel 39100 7975 3    50   Input ~ 0
+~R~\WB
+Text GLabel 38900 7975 3    50   Input ~ 0
+~ROM2
+Text GLabel 41025 7975 3    50   Input ~ 0
+~R~\WB
+Text GLabel 40825 7975 3    50   Input ~ 0
+~ROM3
+$Comp
+L quantum_arcade_pcb:8KX8_ROM L_3
+U 1 1 619665D6
+P 42950 6875
+F 0 "L_3" H 42950 6925 50  0000 C CNN
+F 1 "8KX8_ROM" H 42975 7000 50  0000 C CNN
+F 2 "" H 42950 7225 50  0001 C CNN
+F 3 "" H 42950 7225 50  0001 C CNN
+	1    42950 6875
+	1    0    0    -1  
+$EndComp
+Text GLabel 42250 6375 0    50   Input ~ 0
+AB13
+Text GLabel 42250 6475 0    50   Input ~ 0
+AB12
+Text GLabel 42250 6575 0    50   Input ~ 0
+AB11
+Text GLabel 42250 6675 0    50   Input ~ 0
+AB10
+Text GLabel 42250 6775 0    50   Input ~ 0
+AB9
+Text GLabel 42250 6875 0    50   Input ~ 0
+AB8
+Text GLabel 42250 6975 0    50   Input ~ 0
+AB7
+Text GLabel 42250 7075 0    50   Input ~ 0
+AB6
+Text GLabel 42250 7175 0    50   Input ~ 0
+AB5
+Text GLabel 42250 7275 0    50   Input ~ 0
+AB4
+Text GLabel 42250 7375 0    50   Input ~ 0
+AB3
+Text GLabel 42250 7575 0    50   Input ~ 0
+AB1
+Text GLabel 42250 7475 0    50   Input ~ 0
+AB2
+$Comp
+L power:GND #PWR0221
+U 1 1 619665F1
+P 43150 7675
+F 0 "#PWR0221" H 43150 7425 50  0001 C CNN
+F 1 "GND" H 43300 7600 50  0000 C CNN
+F 2 "" H 43150 7675 50  0001 C CNN
+F 3 "" H 43150 7675 50  0001 C CNN
+	1    43150 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0222
+U 1 1 619665F7
+P 43150 6225
+F 0 "#PWR0222" H 43150 6075 50  0001 C CNN
+F 1 "+5V" H 43250 6300 50  0000 C CNN
+F 2 "" H 43150 6225 50  0001 C CNN
+F 3 "" H 43150 6225 50  0001 C CNN
+	1    43150 6225
+	1    0    0    -1  
+$EndComp
+Text GLabel 43650 6525 2    50   Input ~ 0
+MB7
+Text GLabel 43650 6625 2    50   Input ~ 0
+MB6
+Text GLabel 43650 6725 2    50   Input ~ 0
+MB5
+Text GLabel 43650 6825 2    50   Input ~ 0
+MB4
+Text GLabel 43650 6925 2    50   Input ~ 0
+MB3
+Text GLabel 43650 7025 2    50   Input ~ 0
+MB2
+Text GLabel 43650 7125 2    50   Input ~ 0
+MB1
+Text GLabel 43650 7225 2    50   Input ~ 0
+MB0
+$Comp
+L power:+5V #PWR0223
+U 1 1 61966605
+P 42750 5925
+F 0 "#PWR0223" H 42750 5775 50  0001 C CNN
+F 1 "+5V" H 42850 6000 50  0000 C CNN
+F 2 "" H 42750 5925 50  0001 C CNN
+F 3 "" H 42750 5925 50  0001 C CNN
+	1    42750 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0224
+U 1 1 6196660B
+P 42950 5925
+F 0 "#PWR0224" H 42950 5775 50  0001 C CNN
+F 1 "+5V" H 43050 6000 50  0000 C CNN
+F 2 "" H 42950 5925 50  0001 C CNN
+F 3 "" H 42950 5925 50  0001 C CNN
+	1    42950 5925
+	1    0    0    -1  
+$EndComp
+Text GLabel 42950 7975 3    50   Input ~ 0
+~R~\WB
+Text GLabel 42750 7975 3    50   Input ~ 0
+~ROM4
+$Comp
+L quantum_arcade_pcb:LS245C P_3
+U 1 1 61AA9752
+P 44825 6875
+F 0 "P_3" H 44825 7100 50  0000 C CNN
+F 1 "LS245C" H 44825 7025 50  0000 C CNN
+F 2 "" H 44825 6875 50  0001 C CNN
+F 3 "" H 44825 6875 50  0001 C CNN
+	1    44825 6875
+	1    0    0    -1  
+$EndComp
+Text GLabel 44125 6525 0    50   Input ~ 0
+MB7
+Text GLabel 44125 6625 0    50   Input ~ 0
+MB6
+Text GLabel 44125 6725 0    50   Input ~ 0
+MB5
+Text GLabel 44125 6825 0    50   Input ~ 0
+MB4
+Text GLabel 44125 6925 0    50   Input ~ 0
+MB3
+Text GLabel 44125 7025 0    50   Input ~ 0
+MB2
+Text GLabel 44125 7125 0    50   Input ~ 0
+MB1
+Text GLabel 44125 7225 0    50   Input ~ 0
+MB0
+$Comp
+L power:GND #PWR0225
+U 1 1 61AFCFB3
+P 45025 7425
+F 0 "#PWR0225" H 45025 7175 50  0001 C CNN
+F 1 "GND" H 45175 7350 50  0000 C CNN
+F 2 "" H 45025 7425 50  0001 C CNN
+F 3 "" H 45025 7425 50  0001 C CNN
+	1    45025 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0226
+U 1 1 61AFDA9A
+P 45025 6325
+F 0 "#PWR0226" H 45025 6175 50  0001 C CNN
+F 1 "+5V" H 45125 6400 50  0000 C CNN
+F 2 "" H 45025 6325 50  0001 C CNN
+F 3 "" H 45025 6325 50  0001 C CNN
+	1    45025 6325
+	1    0    0    -1  
+$EndComp
+Text GLabel 45525 6525 2    50   Input ~ 0
+DB7
+Text GLabel 45525 6625 2    50   Input ~ 0
+DB6
+Text GLabel 45525 6725 2    50   Input ~ 0
+DB5
+Text GLabel 45525 6825 2    50   Input ~ 0
+DB4
+Text GLabel 45525 6925 2    50   Input ~ 0
+DB3
+Text GLabel 45525 7025 2    50   Input ~ 0
+DB2
+Text GLabel 45525 7125 2    50   Input ~ 0
+DB1
+Text GLabel 45525 7225 2    50   Input ~ 0
+DB0
+Text GLabel 44625 7625 3    50   Input ~ 0
+R\~W
+Text GLabel 44825 7625 3    50   Input ~ 0
+~MDTACL
+$Comp
+L quantum_arcade_pcb:8KX8_ROM E_2
+U 1 1 61C20251
+P 35250 9500
+F 0 "E_2" H 35250 9550 50  0000 C CNN
+F 1 "8KX8_ROM" H 35275 9625 50  0000 C CNN
+F 2 "" H 35250 9850 50  0001 C CNN
+F 3 "" H 35250 9850 50  0001 C CNN
+	1    35250 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L quantum_arcade_pcb:8KX8_ROM F_2
+U 1 1 61C20257
+P 37175 9500
+F 0 "F_2" H 37175 9550 50  0000 C CNN
+F 1 "8KX8_ROM" H 37200 9625 50  0000 C CNN
+F 2 "" H 37175 9850 50  0001 C CNN
+F 3 "" H 37175 9850 50  0001 C CNN
+	1    37175 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 36475 9000 0    50   Input ~ 0
+AB13
+Text GLabel 36475 9100 0    50   Input ~ 0
+AB12
+Text GLabel 36475 9200 0    50   Input ~ 0
+AB11
+Text GLabel 36475 9300 0    50   Input ~ 0
+AB10
+Text GLabel 36475 9400 0    50   Input ~ 0
+AB9
+Text GLabel 36475 9500 0    50   Input ~ 0
+AB8
+Text GLabel 36475 9600 0    50   Input ~ 0
+AB7
+Text GLabel 36475 9700 0    50   Input ~ 0
+AB6
+Text GLabel 36475 9800 0    50   Input ~ 0
+AB5
+Text GLabel 36475 9900 0    50   Input ~ 0
+AB4
+Text GLabel 36475 10000 0    50   Input ~ 0
+AB3
+Text GLabel 36475 10200 0    50   Input ~ 0
+AB1
+Text GLabel 36475 10100 0    50   Input ~ 0
+AB2
+Text GLabel 35950 9150 2    50   Input ~ 0
+MB15
+Text GLabel 35950 9250 2    50   Input ~ 0
+MB14
+Text GLabel 35950 9350 2    50   Input ~ 0
+MB13
+Text GLabel 35950 9450 2    50   Input ~ 0
+MB12
+Text GLabel 35950 9550 2    50   Input ~ 0
+MB11
+Text GLabel 35950 9650 2    50   Input ~ 0
+MB10
+Text GLabel 35950 9750 2    50   Input ~ 0
+MB9
+Text GLabel 35950 9850 2    50   Input ~ 0
+MB8
+$Comp
+L power:GND #PWR0227
+U 1 1 61C20272
+P 35450 10300
+F 0 "#PWR0227" H 35450 10050 50  0001 C CNN
+F 1 "GND" H 35600 10225 50  0000 C CNN
+F 2 "" H 35450 10300 50  0001 C CNN
+F 3 "" H 35450 10300 50  0001 C CNN
+	1    35450 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0228
+U 1 1 61C20278
+P 37375 10300
+F 0 "#PWR0228" H 37375 10050 50  0001 C CNN
+F 1 "GND" H 37525 10225 50  0000 C CNN
+F 2 "" H 37375 10300 50  0001 C CNN
+F 3 "" H 37375 10300 50  0001 C CNN
+	1    37375 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0229
+U 1 1 61C2027E
+P 35450 8850
+F 0 "#PWR0229" H 35450 8700 50  0001 C CNN
+F 1 "+5V" H 35550 8925 50  0000 C CNN
+F 2 "" H 35450 8850 50  0001 C CNN
+F 3 "" H 35450 8850 50  0001 C CNN
+	1    35450 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0230
+U 1 1 61C20284
+P 37375 8850
+F 0 "#PWR0230" H 37375 8700 50  0001 C CNN
+F 1 "+5V" H 37475 8925 50  0000 C CNN
+F 2 "" H 37375 8850 50  0001 C CNN
+F 3 "" H 37375 8850 50  0001 C CNN
+	1    37375 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 34550 9000 0    50   Input ~ 0
+AB13
+Text GLabel 34550 9100 0    50   Input ~ 0
+AB12
+Text GLabel 34550 9200 0    50   Input ~ 0
+AB11
+Text GLabel 34550 9300 0    50   Input ~ 0
+AB10
+Text GLabel 34550 9400 0    50   Input ~ 0
+AB9
+Text GLabel 34550 9500 0    50   Input ~ 0
+AB8
+Text GLabel 34550 9600 0    50   Input ~ 0
+AB7
+Text GLabel 34550 9700 0    50   Input ~ 0
+AB6
+Text GLabel 34550 9800 0    50   Input ~ 0
+AB5
+Text GLabel 34550 9900 0    50   Input ~ 0
+AB4
+Text GLabel 34550 10000 0    50   Input ~ 0
+AB3
+Text GLabel 34550 10200 0    50   Input ~ 0
+AB1
+Text GLabel 34550 10100 0    50   Input ~ 0
+AB2
+$Comp
+L power:+5V #PWR0231
+U 1 1 61C2029F
+P 35250 8550
+F 0 "#PWR0231" H 35250 8400 50  0001 C CNN
+F 1 "+5V" H 35350 8625 50  0000 C CNN
+F 2 "" H 35250 8550 50  0001 C CNN
+F 3 "" H 35250 8550 50  0001 C CNN
+	1    35250 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0232
+U 1 1 61C202A5
+P 35050 8550
+F 0 "#PWR0232" H 35050 8400 50  0001 C CNN
+F 1 "+5V" H 35150 8625 50  0000 C CNN
+F 2 "" H 35050 8550 50  0001 C CNN
+F 3 "" H 35050 8550 50  0001 C CNN
+	1    35050 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0233
+U 1 1 61C202AB
+P 36975 8550
+F 0 "#PWR0233" H 36975 8400 50  0001 C CNN
+F 1 "+5V" H 37075 8625 50  0000 C CNN
+F 2 "" H 36975 8550 50  0001 C CNN
+F 3 "" H 36975 8550 50  0001 C CNN
+	1    36975 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0234
+U 1 1 61C202B1
+P 37175 8550
+F 0 "#PWR0234" H 37175 8400 50  0001 C CNN
+F 1 "+5V" H 37275 8625 50  0000 C CNN
+F 2 "" H 37175 8550 50  0001 C CNN
+F 3 "" H 37175 8550 50  0001 C CNN
+	1    37175 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 35250 10600 3    50   Input ~ 0
+~R~\WB
+Text GLabel 35050 10600 3    50   Input ~ 0
+~ROM0
+Text GLabel 37175 10600 3    50   Input ~ 0
+~R~\WB
+Text GLabel 36975 10600 3    50   Input ~ 0
+~ROM1
+$Comp
+L quantum_arcade_pcb:8KX8_ROM H/J_2
+U 1 1 61C202BB
+P 39100 9500
+F 0 "H/J_2" H 39100 9550 50  0000 C CNN
+F 1 "8KX8_ROM" H 39125 9625 50  0000 C CNN
+F 2 "" H 39100 9850 50  0001 C CNN
+F 3 "" H 39100 9850 50  0001 C CNN
+	1    39100 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L quantum_arcade_pcb:8KX8_ROM K_2
+U 1 1 61C202C1
+P 41025 9500
+F 0 "K_2" H 41025 9550 50  0000 C CNN
+F 1 "8KX8_ROM" H 41050 9625 50  0000 C CNN
+F 2 "" H 41025 9850 50  0001 C CNN
+F 3 "" H 41025 9850 50  0001 C CNN
+	1    41025 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 40325 9000 0    50   Input ~ 0
+AB13
+Text GLabel 40325 9100 0    50   Input ~ 0
+AB12
+Text GLabel 40325 9200 0    50   Input ~ 0
+AB11
+Text GLabel 40325 9300 0    50   Input ~ 0
+AB10
+Text GLabel 40325 9400 0    50   Input ~ 0
+AB9
+Text GLabel 40325 9500 0    50   Input ~ 0
+AB8
+Text GLabel 40325 9600 0    50   Input ~ 0
+AB7
+Text GLabel 40325 9700 0    50   Input ~ 0
+AB6
+Text GLabel 40325 9800 0    50   Input ~ 0
+AB5
+Text GLabel 40325 9900 0    50   Input ~ 0
+AB4
+Text GLabel 40325 10000 0    50   Input ~ 0
+AB3
+Text GLabel 40325 10200 0    50   Input ~ 0
+AB1
+Text GLabel 40325 10100 0    50   Input ~ 0
+AB2
+$Comp
+L power:GND #PWR0235
+U 1 1 61C202DC
+P 39300 10300
+F 0 "#PWR0235" H 39300 10050 50  0001 C CNN
+F 1 "GND" H 39450 10225 50  0000 C CNN
+F 2 "" H 39300 10300 50  0001 C CNN
+F 3 "" H 39300 10300 50  0001 C CNN
+	1    39300 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0236
+U 1 1 61C202E2
+P 41225 10300
+F 0 "#PWR0236" H 41225 10050 50  0001 C CNN
+F 1 "GND" H 41375 10225 50  0000 C CNN
+F 2 "" H 41225 10300 50  0001 C CNN
+F 3 "" H 41225 10300 50  0001 C CNN
+	1    41225 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0237
+U 1 1 61C202E8
+P 39300 8850
+F 0 "#PWR0237" H 39300 8700 50  0001 C CNN
+F 1 "+5V" H 39400 8925 50  0000 C CNN
+F 2 "" H 39300 8850 50  0001 C CNN
+F 3 "" H 39300 8850 50  0001 C CNN
+	1    39300 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0238
+U 1 1 61C202EE
+P 41225 8850
+F 0 "#PWR0238" H 41225 8700 50  0001 C CNN
+F 1 "+5V" H 41325 8925 50  0000 C CNN
+F 2 "" H 41225 8850 50  0001 C CNN
+F 3 "" H 41225 8850 50  0001 C CNN
+	1    41225 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 38400 9000 0    50   Input ~ 0
+AB13
+Text GLabel 38400 9100 0    50   Input ~ 0
+AB12
+Text GLabel 38400 9200 0    50   Input ~ 0
+AB11
+Text GLabel 38400 9300 0    50   Input ~ 0
+AB10
+Text GLabel 38400 9400 0    50   Input ~ 0
+AB9
+Text GLabel 38400 9500 0    50   Input ~ 0
+AB8
+Text GLabel 38400 9600 0    50   Input ~ 0
+AB7
+Text GLabel 38400 9700 0    50   Input ~ 0
+AB6
+Text GLabel 38400 9800 0    50   Input ~ 0
+AB5
+Text GLabel 38400 9900 0    50   Input ~ 0
+AB4
+Text GLabel 38400 10000 0    50   Input ~ 0
+AB3
+Text GLabel 38400 10200 0    50   Input ~ 0
+AB1
+Text GLabel 38400 10100 0    50   Input ~ 0
+AB2
+$Comp
+L power:+5V #PWR0239
+U 1 1 61C20309
+P 39100 8550
+F 0 "#PWR0239" H 39100 8400 50  0001 C CNN
+F 1 "+5V" H 39200 8625 50  0000 C CNN
+F 2 "" H 39100 8550 50  0001 C CNN
+F 3 "" H 39100 8550 50  0001 C CNN
+	1    39100 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0240
+U 1 1 61C2030F
+P 38900 8550
+F 0 "#PWR0240" H 38900 8400 50  0001 C CNN
+F 1 "+5V" H 39000 8625 50  0000 C CNN
+F 2 "" H 38900 8550 50  0001 C CNN
+F 3 "" H 38900 8550 50  0001 C CNN
+	1    38900 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0241
+U 1 1 61C20315
+P 40825 8550
+F 0 "#PWR0241" H 40825 8400 50  0001 C CNN
+F 1 "+5V" H 40925 8625 50  0000 C CNN
+F 2 "" H 40825 8550 50  0001 C CNN
+F 3 "" H 40825 8550 50  0001 C CNN
+	1    40825 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0242
+U 1 1 61C2031B
+P 41025 8550
+F 0 "#PWR0242" H 41025 8400 50  0001 C CNN
+F 1 "+5V" H 41125 8625 50  0000 C CNN
+F 2 "" H 41025 8550 50  0001 C CNN
+F 3 "" H 41025 8550 50  0001 C CNN
+	1    41025 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 39100 10600 3    50   Input ~ 0
+~R~\WB
+Text GLabel 38900 10600 3    50   Input ~ 0
+~ROM2
+Text GLabel 41025 10600 3    50   Input ~ 0
+~R~\WB
+Text GLabel 40825 10600 3    50   Input ~ 0
+~ROM3
+$Comp
+L quantum_arcade_pcb:8KX8_ROM L_2
+U 1 1 61C20325
+P 42950 9500
+F 0 "L_2" H 42950 9550 50  0000 C CNN
+F 1 "8KX8_ROM" H 42975 9625 50  0000 C CNN
+F 2 "" H 42950 9850 50  0001 C CNN
+F 3 "" H 42950 9850 50  0001 C CNN
+	1    42950 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 42250 9000 0    50   Input ~ 0
+AB13
+Text GLabel 42250 9100 0    50   Input ~ 0
+AB12
+Text GLabel 42250 9200 0    50   Input ~ 0
+AB11
+Text GLabel 42250 9300 0    50   Input ~ 0
+AB10
+Text GLabel 42250 9400 0    50   Input ~ 0
+AB9
+Text GLabel 42250 9500 0    50   Input ~ 0
+AB8
+Text GLabel 42250 9600 0    50   Input ~ 0
+AB7
+Text GLabel 42250 9700 0    50   Input ~ 0
+AB6
+Text GLabel 42250 9800 0    50   Input ~ 0
+AB5
+Text GLabel 42250 9900 0    50   Input ~ 0
+AB4
+Text GLabel 42250 10000 0    50   Input ~ 0
+AB3
+Text GLabel 42250 10200 0    50   Input ~ 0
+AB1
+Text GLabel 42250 10100 0    50   Input ~ 0
+AB2
+$Comp
+L power:GND #PWR0243
+U 1 1 61C20338
+P 43150 10300
+F 0 "#PWR0243" H 43150 10050 50  0001 C CNN
+F 1 "GND" H 43300 10225 50  0000 C CNN
+F 2 "" H 43150 10300 50  0001 C CNN
+F 3 "" H 43150 10300 50  0001 C CNN
+	1    43150 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0244
+U 1 1 61C2033E
+P 43150 8850
+F 0 "#PWR0244" H 43150 8700 50  0001 C CNN
+F 1 "+5V" H 43250 8925 50  0000 C CNN
+F 2 "" H 43150 8850 50  0001 C CNN
+F 3 "" H 43150 8850 50  0001 C CNN
+	1    43150 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0245
+U 1 1 61C2034C
+P 42750 8550
+F 0 "#PWR0245" H 42750 8400 50  0001 C CNN
+F 1 "+5V" H 42850 8625 50  0000 C CNN
+F 2 "" H 42750 8550 50  0001 C CNN
+F 3 "" H 42750 8550 50  0001 C CNN
+	1    42750 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0246
+U 1 1 61C20352
+P 42950 8550
+F 0 "#PWR0246" H 42950 8400 50  0001 C CNN
+F 1 "+5V" H 43050 8625 50  0000 C CNN
+F 2 "" H 42950 8550 50  0001 C CNN
+F 3 "" H 42950 8550 50  0001 C CNN
+	1    42950 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 42950 10600 3    50   Input ~ 0
+~R~\WB
+Text GLabel 42750 10600 3    50   Input ~ 0
+~ROM4
+$Comp
+L quantum_arcade_pcb:LS245C P_2
+U 1 1 61C2035A
+P 44900 9500
+F 0 "P_2" H 44900 9725 50  0000 C CNN
+F 1 "LS245C" H 44900 9650 50  0000 C CNN
+F 2 "" H 44900 9500 50  0001 C CNN
+F 3 "" H 44900 9500 50  0001 C CNN
+	1    44900 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0247
+U 1 1 61C20368
+P 45100 10050
+F 0 "#PWR0247" H 45100 9800 50  0001 C CNN
+F 1 "GND" H 45250 9975 50  0000 C CNN
+F 2 "" H 45100 10050 50  0001 C CNN
+F 3 "" H 45100 10050 50  0001 C CNN
+	1    45100 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0248
+U 1 1 61C2036E
+P 45100 8950
+F 0 "#PWR0248" H 45100 8800 50  0001 C CNN
+F 1 "+5V" H 45200 9025 50  0000 C CNN
+F 2 "" H 45100 8950 50  0001 C CNN
+F 3 "" H 45100 8950 50  0001 C CNN
+	1    45100 8950
+	1    0    0    -1  
+$EndComp
+Text GLabel 44700 10250 3    50   Input ~ 0
+R\~W
+Text GLabel 44900 10250 3    50   Input ~ 0
+~MDTACL
+Text GLabel 37875 9150 2    50   Input ~ 0
+MB15
+Text GLabel 37875 9250 2    50   Input ~ 0
+MB14
+Text GLabel 37875 9350 2    50   Input ~ 0
+MB13
+Text GLabel 37875 9450 2    50   Input ~ 0
+MB12
+Text GLabel 37875 9550 2    50   Input ~ 0
+MB11
+Text GLabel 37875 9650 2    50   Input ~ 0
+MB10
+Text GLabel 37875 9750 2    50   Input ~ 0
+MB9
+Text GLabel 37875 9850 2    50   Input ~ 0
+MB8
+Text GLabel 39800 9150 2    50   Input ~ 0
+MB15
+Text GLabel 39800 9250 2    50   Input ~ 0
+MB14
+Text GLabel 39800 9350 2    50   Input ~ 0
+MB13
+Text GLabel 39800 9450 2    50   Input ~ 0
+MB12
+Text GLabel 39800 9550 2    50   Input ~ 0
+MB11
+Text GLabel 39800 9650 2    50   Input ~ 0
+MB10
+Text GLabel 39800 9750 2    50   Input ~ 0
+MB9
+Text GLabel 39800 9850 2    50   Input ~ 0
+MB8
+Text GLabel 41725 9150 2    50   Input ~ 0
+MB15
+Text GLabel 41725 9250 2    50   Input ~ 0
+MB14
+Text GLabel 41725 9350 2    50   Input ~ 0
+MB13
+Text GLabel 41725 9450 2    50   Input ~ 0
+MB12
+Text GLabel 41725 9550 2    50   Input ~ 0
+MB11
+Text GLabel 41725 9650 2    50   Input ~ 0
+MB10
+Text GLabel 41725 9750 2    50   Input ~ 0
+MB9
+Text GLabel 41725 9850 2    50   Input ~ 0
+MB8
+Text GLabel 43650 9150 2    50   Input ~ 0
+MB15
+Text GLabel 43650 9250 2    50   Input ~ 0
+MB14
+Text GLabel 43650 9350 2    50   Input ~ 0
+MB13
+Text GLabel 43650 9450 2    50   Input ~ 0
+MB12
+Text GLabel 43650 9550 2    50   Input ~ 0
+MB11
+Text GLabel 43650 9650 2    50   Input ~ 0
+MB10
+Text GLabel 43650 9750 2    50   Input ~ 0
+MB9
+Text GLabel 43650 9850 2    50   Input ~ 0
+MB8
+Text GLabel 44200 9150 0    50   Input ~ 0
+MB15
+Text GLabel 44200 9250 0    50   Input ~ 0
+MB14
+Text GLabel 44200 9350 0    50   Input ~ 0
+MB13
+Text GLabel 44200 9450 0    50   Input ~ 0
+MB12
+Text GLabel 44200 9550 0    50   Input ~ 0
+MB11
+Text GLabel 44200 9650 0    50   Input ~ 0
+MB10
+Text GLabel 44200 9750 0    50   Input ~ 0
+MB9
+Text GLabel 44200 9850 0    50   Input ~ 0
+MB8
+Text GLabel 45600 9150 2    50   Input ~ 0
+DB15
+Text GLabel 45600 9250 2    50   Input ~ 0
+DB14
+Text GLabel 45600 9350 2    50   Input ~ 0
+DB13
+Text GLabel 45600 9450 2    50   Input ~ 0
+DB12
+Text GLabel 45600 9550 2    50   Input ~ 0
+DB11
+Text GLabel 45600 9650 2    50   Input ~ 0
+DB10
+Text GLabel 45600 9750 2    50   Input ~ 0
+DB9
+Text GLabel 45600 9850 2    50   Input ~ 0
+DB8
+Text Notes 39550 5800 0    100  ~ 20
+PROGRAM ROM
+Wire Notes Line
+	34200 5625 34200 11025
+Wire Notes Line
+	34200 11025 46000 11025
+Wire Notes Line
+	46000 11025 46000 5625
+Wire Notes Line
+	46000 5625 34200 5625
+Text GLabel 27225 29475 0    60   Input ~ 0
+~DVY11
+Text GLabel 27550 29575 0    60   Input ~ 0
+DVY10
+Text GLabel 27225 29675 0    60   Input ~ 0
+DVY9
+Text GLabel 27550 29775 0    60   Input ~ 0
+DVY8
+Text GLabel 27225 29875 0    60   Input ~ 0
+DVY7
+Text GLabel 27550 29975 0    60   Input ~ 0
+DVY6
+Text GLabel 27225 30075 0    60   Input ~ 0
+DVY5
+Text GLabel 27550 30175 0    60   Input ~ 0
+DVY4
+Text GLabel 27225 30275 0    60   Input ~ 0
+DVY3
+Text GLabel 29625 29675 2    60   Input ~ 0
+-15V
+$Comp
+L Device:C C?
+U 1 1 64DD9D65
+P 29475 29850
+AR Path="/638E8E88/64DD9D65" Ref="C?"  Part="1" 
+AR Path="/64DD9D65" Ref="C20"  Part="1" 
+F 0 "C20" H 29325 29950 50  0000 L CNN
+F 1 ".1uF" H 29300 29775 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 29513 29700 50  0001 C CNN
+F 3 "" H 29475 29850 50  0001 C CNN
+	1    29475 29850
+	-1   0    0    1   
+$EndComp
+NoConn ~ 28750 30175
+$Comp
+L Device:R R?
+U 1 1 64DD9D6C
+P 29225 30025
+AR Path="/638E8E88/64DD9D6C" Ref="R?"  Part="1" 
+AR Path="/64DD9D6C" Ref="R54"  Part="1" 
+F 0 "R54" V 29305 30025 50  0000 C CNN
+F 1 "680" V 29225 30025 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 29155 30025 50  0001 C CNN
+F 3 "" H 29225 30025 50  0001 C CNN
+	1    29225 30025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64DD9D72
+P 29225 30375
+AR Path="/638E8E88/64DD9D72" Ref="C?"  Part="1" 
+AR Path="/64DD9D72" Ref="C21"  Part="1" 
+F 0 "C21" H 29050 30475 50  0000 L CNN
+F 1 ".0018uF" H 28900 30275 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:SmallCap" H 29263 30225 50  0001 C CNN
+F 3 "" H 29225 30375 50  0001 C CNN
+	1    29225 30375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 64DD9D78
+P 28900 30275
+AR Path="/638E8E88/64DD9D78" Ref="R?"  Part="1" 
+AR Path="/64DD9D78" Ref="R55"  Part="1" 
+F 0 "R55" V 28980 30275 50  0000 C CNN
+F 1 "820" V 28900 30275 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 28830 30275 50  0001 C CNN
+F 3 "" H 28900 30275 50  0001 C CNN
+	1    28900 30275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64DD9D7E
+P 27925 29075
+AR Path="/638E8E88/64DD9D7E" Ref="C?"  Part="1" 
+AR Path="/64DD9D7E" Ref="C19"  Part="1" 
+F 0 "C19" H 27950 29175 50  0000 L CNN
+F 1 ".1uF" H 27950 28975 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 27963 28925 50  0001 C CNN
+F 3 "" H 27925 29075 50  0001 C CNN
+	1    27925 29075
+	0    1    1    0   
+$EndComp
+Text GLabel 28925 29400 2    60   Input ~ 0
+YBIP
+$Comp
+L Star_Wars_Vector_PCB:082 D_?
+U 2 1 64DD9D85
+P 30700 29850
+AR Path="/638E8E88/64DD9D85" Ref="D_?"  Part="2" 
+AR Path="/64DD9D85" Ref="D_10"  Part="2" 
+F 0 "D_10" H 30750 30025 50  0000 L CNN
+F 1 "082" H 30775 29950 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:DIP8" H 30700 29850 50  0001 C CNN
+F 3 "" H 30700 29850 50  0001 C CNN
+	2    30700 29850
+	1    0    0    1   
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:082 D_?
+U 1 1 64DD9D8B
+P 32225 29950
+AR Path="/638E8E88/64DD9D8B" Ref="D_?"  Part="1" 
+AR Path="/64DD9D8B" Ref="D_10"  Part="1" 
+F 0 "D_10" H 32225 30150 50  0000 L CNN
+F 1 "082" H 32225 29750 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:DIP8" H 32225 29950 50  0001 C CNN
+F 3 "" H 32225 29950 50  0001 C CNN
+	1    32225 29950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64DD9D91
+P 30925 29025
+AR Path="/638E8E88/64DD9D91" Ref="C?"  Part="1" 
+AR Path="/64DD9D91" Ref="C25"  Part="1" 
+F 0 "C25" H 30950 29125 50  0000 L CNN
+F 1 ".047uF" H 30950 28925 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:CapYellow" H 30963 28875 50  0001 C CNN
+F 3 "" H 30925 29025 50  0001 C CNN
+	1    30925 29025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64DD9D97
+P 30900 29600
+AR Path="/638E8E88/64DD9D97" Ref="C?"  Part="1" 
+AR Path="/64DD9D97" Ref="C26"  Part="1" 
+F 0 "C26" H 30925 29700 50  0000 L CNN
+F 1 ".1uF" H 30925 29500 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 30938 29450 50  0001 C CNN
+F 3 "" H 30900 29600 50  0001 C CNN
+	1    30900 29600
+	0    1    1    0   
+$EndComp
+Text GLabel 30750 29425 2    60   Input ~ 0
++15V
+Text GLabel 30750 30125 2    60   Input ~ 0
+-15V
+$Comp
+L Device:C C?
+U 1 1 64DD9D9F
+P 30900 30300
+AR Path="/638E8E88/64DD9D9F" Ref="C?"  Part="1" 
+AR Path="/64DD9D9F" Ref="C27"  Part="1" 
+F 0 "C27" H 30925 30400 50  0000 L CNN
+F 1 ".1uF" H 30925 30200 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 30938 30150 50  0001 C CNN
+F 3 "" H 30900 30300 50  0001 C CNN
+	1    30900 30300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 64DD9DA5
+P 31550 29850
+AR Path="/638E8E88/64DD9DA5" Ref="R?"  Part="1" 
+AR Path="/64DD9DA5" Ref="R58"  Part="1" 
+F 0 "R58" V 31630 29850 50  0000 C CNN
+F 1 "7.5K" V 31550 29850 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 31480 29850 50  0001 C CNN
+F 3 "" H 31550 29850 50  0001 C CNN
+	1    31550 29850
+	0    1    1    0   
+$EndComp
+Text GLabel 30825 28475 0    60   Input ~ 0
+~CENTER
+$Comp
+L Device:R R?
+U 1 1 64DD9DAC
+P 32275 29525
+AR Path="/638E8E88/64DD9DAC" Ref="R?"  Part="1" 
+AR Path="/64DD9DAC" Ref="R106"  Part="1" 
+F 0 "R106" V 32355 29525 50  0000 C CNN
+F 1 "7.5K" V 32275 29525 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 32205 29525 50  0001 C CNN
+F 3 "" H 32275 29525 50  0001 C CNN
+	1    32275 29525
+	0    1    1    0   
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LF13201 E_?
+U 4 1 64DD9DB2
+P 33100 29950
+AR Path="/638E8E88/64DD9DB2" Ref="E_?"  Part="4" 
+AR Path="/64DD9DB2" Ref="E_10"  Part="4" 
+F 0 "E_10" H 33100 29825 50  0000 C CNN
+F 1 "LF13201" H 33275 30075 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:DIP16" H 33100 29950 60  0001 C CNN
+F 3 "" H 33100 29950 60  0001 C CNN
+	4    33100 29950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LF13201 E_?
+U 1 1 64DD9DB8
+P 33100 28700
+AR Path="/638E8E88/64DD9DB8" Ref="E_?"  Part="1" 
+AR Path="/64DD9DB8" Ref="E_10"  Part="1" 
+F 0 "E_10" H 33100 28575 50  0000 C CNN
+F 1 "LF13201" H 33375 28750 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:DIP16" H 33100 28700 60  0001 C CNN
+F 3 "" H 33100 28700 60  0001 C CNN
+	1    33100 28700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LF13201 E_?
+U 3 1 64DD9DBE
+P 30950 28700
+AR Path="/638E8E88/64DD9DBE" Ref="E_?"  Part="3" 
+AR Path="/64DD9DBE" Ref="E_10"  Part="3" 
+F 0 "E_10" H 30950 28575 50  0000 C CNN
+F 1 "LF13201" H 31225 28750 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:DIP16" H 30950 28700 60  0001 C CNN
+F 3 "" H 30950 28700 60  0001 C CNN
+	3    30950 28700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:082 BC_?
+U 2 1 64DD9DDC
+P 37275 28775
+AR Path="/638E8E88/64DD9DDC" Ref="BC_?"  Part="2" 
+AR Path="/64DD9DDC" Ref="D/E_12"  Part="2" 
+F 0 "D/E_12" H 37475 28725 50  0000 L CNN
+F 1 "082" H 37550 28825 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:DIP8" H 37275 28775 50  0001 C CNN
+F 3 "" H 37275 28775 50  0001 C CNN
+	2    37275 28775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB-rescue:POT R?
+U 1 1 64DD9E0A
+P 38275 28775
+AR Path="/638E8E88/64DD9E0A" Ref="R?"  Part="1" 
+AR Path="/64DD9E0A" Ref="R74"  Part="1" 
+F 0 "R74" V 38200 28775 50  0000 C CNN
+F 1 "2K" V 38275 28775 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:PotBlk" H 38275 28775 50  0001 C CNN
+F 3 "" H 38275 28775 50  0001 C CNN
+	1    38275 28775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Varistor RV?
+U 1 1 64DD9E10
+P 38600 29000
+AR Path="/638E8E88/64DD9E10" Ref="RV?"  Part="1" 
+AR Path="/64DD9E10" Ref="RV2"  Part="1" 
+F 0 "RV2" V 38725 29000 50  0000 C CNN
+F 1 "VDR" V 38475 29000 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 38530 29000 50  0001 C CNN
+F 3 "" H 38600 29000 50  0001 C CNN
+	1    38600 29000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:082 BC_?
+U 1 1 64DD9E16
+P 39425 28675
+AR Path="/638E8E88/64DD9E16" Ref="BC_?"  Part="1" 
+AR Path="/64DD9E16" Ref="D/E_12"  Part="1" 
+F 0 "D/E_12" H 39600 28750 50  0000 L CNN
+F 1 "082" H 39525 28575 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:DIP8" H 39425 28675 50  0001 C CNN
+F 3 "" H 39425 28675 50  0001 C CNN
+	1    39425 28675
+	1    0    0    1   
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:TP YOUT?
+U 1 1 64DD9E1C
+P 40425 28475
+AR Path="/638E8E88/64DD9E1C" Ref="YOUT?"  Part="1" 
+AR Path="/64DD9E1C" Ref="TPYOUT1"  Part="1" 
+F 0 "TPYOUT1" H 40425 28725 60  0000 C CNN
+F 1 "TP" H 40350 28525 60  0001 C CNN
+F 2 "Star_Wars_Vector_PCB:TEST_POINT" H 40350 28425 60  0001 C CNN
+F 3 "" H 40350 28425 60  0001 C CNN
+	1    40425 28475
+	1    0    0    -1  
+$EndComp
+Text GLabel 40750 28675 2    60   Input ~ 0
+YOUT
+Text Notes 38650 30750 0    200  ~ 0
+Y-Axis Output
+Wire Wire Line
+	27550 29375 27550 29325
+Wire Wire Line
+	27550 29325 27450 29325
+Wire Wire Line
+	27450 29325 27450 29350
+Wire Wire Line
+	27550 29475 27225 29475
+Wire Wire Line
+	27550 29675 27225 29675
+Wire Wire Line
+	27550 29875 27225 29875
+Wire Wire Line
+	27550 30075 27225 30075
+Wire Wire Line
+	27550 30275 27225 30275
+Wire Wire Line
+	28750 29575 28825 29575
+Wire Wire Line
+	28750 29675 29475 29675
+Wire Wire Line
+	29475 29675 29475 29700
+Connection ~ 29475 29675
+Wire Wire Line
+	29225 30175 29225 30225
+Wire Wire Line
+	29225 30525 29225 30550
+Wire Wire Line
+	29050 30275 29050 30550
+Wire Wire Line
+	29050 30550 29225 30550
+Connection ~ 29225 30550
+Wire Wire Line
+	28750 29875 28900 29875
+Wire Wire Line
+	28075 29075 28150 29075
+Wire Wire Line
+	28150 29325 28150 29075
+Connection ~ 28150 29075
+Wire Wire Line
+	27775 29075 27650 29075
+Wire Wire Line
+	27650 29075 27650 29125
+Wire Wire Line
+	28925 29400 28825 29400
+Wire Wire Line
+	28825 29400 28825 29575
+Connection ~ 28825 29575
+Wire Wire Line
+	30400 29750 30225 29750
+Wire Wire Line
+	29975 29750 29975 29575
+Wire Wire Line
+	30650 29600 30750 29600
+Wire Wire Line
+	30650 28700 30650 29025
+Wire Wire Line
+	31050 29600 31075 29600
+Wire Wire Line
+	30750 29425 30650 29425
+Connection ~ 30650 29600
+Wire Wire Line
+	30750 30125 30650 30125
+Wire Wire Line
+	30650 29975 30650 30125
+Wire Wire Line
+	31050 30300 31075 30300
+Wire Wire Line
+	30650 30300 30750 30300
+Connection ~ 30650 30125
+Wire Wire Line
+	30400 29950 30325 29950
+Wire Wire Line
+	30325 29950 30325 30000
+Wire Wire Line
+	31000 29850 31275 29850
+Wire Wire Line
+	31275 28700 31275 29025
+Wire Wire Line
+	31275 29025 31075 29025
+Wire Wire Line
+	30775 29025 30650 29025
+Connection ~ 31275 29025
+Connection ~ 31275 29850
+Wire Wire Line
+	30950 28475 30825 28475
+Wire Wire Line
+	31700 29850 31800 29850
+Wire Wire Line
+	31925 30050 31850 30050
+Wire Wire Line
+	31850 30050 31850 30100
+Wire Wire Line
+	32525 29950 32625 29950
+Wire Wire Line
+	32625 29950 32625 29525
+Wire Wire Line
+	32625 29525 32425 29525
+Wire Wire Line
+	32125 29525 31800 29525
+Wire Wire Line
+	31800 29525 31800 29850
+Connection ~ 31800 29850
+Connection ~ 32625 29950
+Wire Wire Line
+	31250 28700 31275 28700
+Connection ~ 31275 28700
+Wire Wire Line
+	33600 29950 33400 29950
+Wire Wire Line
+	33600 28700 33400 28700
+Wire Wire Line
+	33100 30175 33100 30525
+Connection ~ 33100 30525
+Wire Wire Line
+	34200 30525 34200 28475
+Wire Wire Line
+	34200 28475 33100 28475
+Wire Wire Line
+	36275 28675 36375 28675
+Wire Wire Line
+	38275 28625 38025 28625
+Wire Wire Line
+	38025 28625 38025 28775
+Connection ~ 38025 28775
+Wire Wire Line
+	38425 28775 38600 28775
+Wire Wire Line
+	38600 28775 38600 28850
+Wire Wire Line
+	38600 29150 38600 29200
+Connection ~ 38600 28775
+Wire Wire Line
+	39725 28675 39925 28675
+Wire Wire Line
+	39925 28675 39925 28300
+Wire Wire Line
+	39925 28300 39025 28300
+Wire Wire Line
+	39025 28300 39025 28575
+Wire Wire Line
+	39025 28575 39125 28575
+Connection ~ 39925 28675
+Connection ~ 40350 28675
+Connection ~ 40500 28675
+Wire Wire Line
+	33700 30425 33700 30300
+Wire Wire Line
+	33700 30625 33700 30675
+Text GLabel 28950 29775 2    60   Input ~ 0
+YREF
+Wire Wire Line
+	28950 29775 28900 29775
+Wire Wire Line
+	28900 29775 28900 29875
+Connection ~ 28900 29875
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EB0
+P 38600 29200
+AR Path="/638E8E88/64DD9EB0" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EB0" Ref="#PWR0249"  Part="1" 
+F 0 "#PWR0249" H 38600 28950 50  0001 C CNN
+F 1 "GND" H 38600 29050 50  0000 C CNN
+F 2 "" H 38600 29200 50  0001 C CNN
+F 3 "" H 38600 29200 50  0001 C CNN
+	1    38600 29200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EC2
+P 33700 30675
+AR Path="/638E8E88/64DD9EC2" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EC2" Ref="#PWR0250"  Part="1" 
+F 0 "#PWR0250" H 33700 30425 50  0001 C CNN
+F 1 "GND" H 33700 30525 50  0000 C CNN
+F 2 "" H 33700 30675 50  0001 C CNN
+F 3 "" H 33700 30675 50  0001 C CNN
+	1    33700 30675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9ECE
+P 31075 30300
+AR Path="/638E8E88/64DD9ECE" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9ECE" Ref="#PWR0251"  Part="1" 
+F 0 "#PWR0251" H 31075 30050 50  0001 C CNN
+F 1 "GND" H 31200 30225 50  0000 C CNN
+F 2 "" H 31075 30300 50  0001 C CNN
+F 3 "" H 31075 30300 50  0001 C CNN
+	1    31075 30300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9ED4
+P 29225 30575
+AR Path="/638E8E88/64DD9ED4" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9ED4" Ref="#PWR0252"  Part="1" 
+F 0 "#PWR0252" H 29225 30325 50  0001 C CNN
+F 1 "GND" H 29225 30425 50  0000 C CNN
+F 2 "" H 29225 30575 50  0001 C CNN
+F 3 "" H 29225 30575 50  0001 C CNN
+	1    29225 30575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EDA
+P 28150 30525
+AR Path="/638E8E88/64DD9EDA" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EDA" Ref="#PWR0253"  Part="1" 
+F 0 "#PWR0253" H 28150 30275 50  0001 C CNN
+F 1 "GND" H 28150 30375 50  0000 C CNN
+F 2 "" H 28150 30525 50  0001 C CNN
+F 3 "" H 28150 30525 50  0001 C CNN
+	1    28150 30525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EE0
+P 27550 30475
+AR Path="/638E8E88/64DD9EE0" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EE0" Ref="#PWR0254"  Part="1" 
+F 0 "#PWR0254" H 27550 30225 50  0001 C CNN
+F 1 "GND" H 27550 30325 50  0000 C CNN
+F 2 "" H 27550 30475 50  0001 C CNN
+F 3 "" H 27550 30475 50  0001 C CNN
+	1    27550 30475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EE6
+P 27650 29125
+AR Path="/638E8E88/64DD9EE6" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EE6" Ref="#PWR0255"  Part="1" 
+F 0 "#PWR0255" H 27650 28875 50  0001 C CNN
+F 1 "GND" H 27650 28975 50  0000 C CNN
+F 2 "" H 27650 29125 50  0001 C CNN
+F 3 "" H 27650 29125 50  0001 C CNN
+	1    27650 29125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EEC
+P 27450 29350
+AR Path="/638E8E88/64DD9EEC" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EEC" Ref="#PWR0256"  Part="1" 
+F 0 "#PWR0256" H 27450 29100 50  0001 C CNN
+F 1 "GND" H 27325 29275 50  0000 C CNN
+F 2 "" H 27450 29350 50  0001 C CNN
+F 3 "" H 27450 29350 50  0001 C CNN
+	1    27450 29350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EF2
+P 28750 29975
+AR Path="/638E8E88/64DD9EF2" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EF2" Ref="#PWR0257"  Part="1" 
+F 0 "#PWR0257" H 28750 29725 50  0001 C CNN
+F 1 "GND" H 28750 29825 50  0000 C CNN
+F 2 "" H 28750 29975 50  0001 C CNN
+F 3 "" H 28750 29975 50  0001 C CNN
+	1    28750 29975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EF8
+P 29475 30000
+AR Path="/638E8E88/64DD9EF8" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EF8" Ref="#PWR0258"  Part="1" 
+F 0 "#PWR0258" H 29475 29750 50  0001 C CNN
+F 1 "GND" H 29475 29850 50  0000 C CNN
+F 2 "" H 29475 30000 50  0001 C CNN
+F 3 "" H 29475 30000 50  0001 C CNN
+	1    29475 30000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9EFE
+P 31075 29600
+AR Path="/638E8E88/64DD9EFE" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9EFE" Ref="#PWR0259"  Part="1" 
+F 0 "#PWR0259" H 31075 29350 50  0001 C CNN
+F 1 "GND" H 31125 29450 50  0000 C CNN
+F 2 "" H 31075 29600 50  0001 C CNN
+F 3 "" H 31075 29600 50  0001 C CNN
+	1    31075 29600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 64DD9F10
+P 28250 29075
+AR Path="/638E8E88/64DD9F10" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9F10" Ref="#PWR0260"  Part="1" 
+F 0 "#PWR0260" H 28250 28925 50  0001 C CNN
+F 1 "+5V" H 28250 29215 50  0000 C CNN
+F 2 "" H 28250 29075 50  0001 C CNN
+F 3 "" H 28250 29075 50  0001 C CNN
+	1    28250 29075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:AM6012 E_?
+U 1 1 64DD9F1C
+P 28150 29875
+AR Path="/638E8E88/64DD9F1C" Ref="E_?"  Part="1" 
+AR Path="/64DD9F1C" Ref="F/H_9"  Part="1" 
+F 0 "F/H_9" H 28150 29925 50  0000 C CNN
+F 1 "AM6012" V 28150 29650 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:DIP20" H 28150 29975 50  0001 C CNN
+F 3 "" H 28150 29975 50  0001 C CNN
+	1    28150 29875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 64DD9F22
+P 33700 30300
+AR Path="/638E8E88/64DD9F22" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9F22" Ref="#PWR0261"  Part="1" 
+F 0 "#PWR0261" H 33700 30150 50  0001 C CNN
+F 1 "+5V" H 33700 30440 50  0000 C CNN
+F 2 "" H 33700 30300 50  0001 C CNN
+F 3 "" H 33700 30300 50  0001 C CNN
+	1    33700 30300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9F28
+P 31850 30100
+AR Path="/638E8E88/64DD9F28" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9F28" Ref="#PWR0262"  Part="1" 
+F 0 "#PWR0262" H 31850 29850 50  0001 C CNN
+F 1 "GND" H 31850 29950 50  0000 C CNN
+F 2 "" H 31850 30100 50  0001 C CNN
+F 3 "" H 31850 30100 50  0001 C CNN
+	1    31850 30100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64DD9F2E
+P 30325 30000
+AR Path="/638E8E88/64DD9F2E" Ref="#PWR?"  Part="1" 
+AR Path="/64DD9F2E" Ref="#PWR0263"  Part="1" 
+F 0 "#PWR0263" H 30325 29750 50  0001 C CNN
+F 1 "GND" H 30325 29850 50  0000 C CNN
+F 2 "" H 30325 30000 50  0001 C CNN
+F 3 "" H 30325 30000 50  0001 C CNN
+	1    30325 30000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LS04 K_?
+U 1 1 64DD9F34
+P 33750 30525
+AR Path="/638E8E88/64DD9F34" Ref="K_?"  Part="1" 
+AR Path="/64DD9F34" Ref="J_10"  Part="1" 
+F 0 "J_10" H 33925 30625 50  0000 C CNN
+F 1 "LS04" H 33950 30425 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:DIP14" H 33750 30525 50  0001 C CNN
+F 3 "" H 33750 30525 50  0001 C CNN
+	1    33750 30525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	29475 29675 29625 29675
+Wire Wire Line
+	29225 30550 29225 30575
+Wire Wire Line
+	28150 29075 28250 29075
+Wire Wire Line
+	28825 29575 29975 29575
+Wire Wire Line
+	30650 29600 30650 29725
+Wire Wire Line
+	30650 30125 30650 30300
+Wire Wire Line
+	30650 29425 30650 29600
+Wire Wire Line
+	31275 29025 31275 29850
+Wire Wire Line
+	31275 29850 31400 29850
+Wire Wire Line
+	31800 29850 31925 29850
+Wire Wire Line
+	32625 29950 32800 29950
+Wire Wire Line
+	31275 28700 32800 28700
+Wire Wire Line
+	33100 30525 33300 30525
+Wire Wire Line
+	38025 28775 38125 28775
+Wire Wire Line
+	38600 28775 39125 28775
+Wire Wire Line
+	39925 28675 40350 28675
+Wire Wire Line
+	40350 28675 40500 28675
+Wire Wire Line
+	28900 29875 29225 29875
+Wire Wire Line
+	30650 29025 30225 29025
+Wire Wire Line
+	30225 29025 30225 29750
+Connection ~ 30650 29025
+Connection ~ 30225 29750
+Wire Wire Line
+	30225 29750 29975 29750
+NoConn ~ 40175 29250
+NoConn ~ 39875 29025
+NoConn ~ 39575 29250
+Text GLabel 40500 29475 2    60   Input ~ 0
++15V
+Text GLabel 40825 29550 2    60   Input ~ 0
+-15V
+$Comp
+L Device:C C?
+U 1 1 651E77C5
+P 40250 29775
+AR Path="/638E8E88/651E77C5" Ref="C?"  Part="1" 
+AR Path="/651E77C5" Ref="C35"  Part="1" 
+F 0 "C35" H 40275 29875 50  0000 L CNN
+F 1 ".1uF" H 40275 29675 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 40288 29625 50  0001 C CNN
+F 3 "" H 40250 29775 50  0001 C CNN
+	1    40250 29775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 651E77CB
+P 40575 29775
+AR Path="/638E8E88/651E77CB" Ref="C?"  Part="1" 
+AR Path="/651E77CB" Ref="C36"  Part="1" 
+F 0 "C36" H 40600 29875 50  0000 L CNN
+F 1 ".1uF" H 40600 29675 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 40613 29625 50  0001 C CNN
+F 3 "" H 40575 29775 50  0001 C CNN
+	1    40575 29775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	40075 29475 40250 29475
+Wire Wire Line
+	40075 29550 40575 29550
+Wire Wire Line
+	40250 29625 40250 29475
+Connection ~ 40250 29475
+Wire Wire Line
+	40575 29625 40575 29550
+Connection ~ 40575 29550
+Wire Wire Line
+	40075 29750 40075 29975
+Wire Wire Line
+	40075 29975 40250 29975
+Wire Wire Line
+	40575 29975 40575 29925
+Wire Wire Line
+	40250 29925 40250 29975
+Connection ~ 40250 29975
+Wire Notes Line
+	39500 28975 39500 30175
+Wire Notes Line
+	39500 30175 41175 30175
+Wire Notes Line
+	41175 30175 41175 28975
+Wire Notes Line
+	41175 28975 39500 28975
+$Comp
+L power:GND #PWR?
+U 1 1 651E77E0
+P 40250 30025
+AR Path="/638E8E88/651E77E0" Ref="#PWR?"  Part="1" 
+AR Path="/651E77E0" Ref="#PWR0264"  Part="1" 
+F 0 "#PWR0264" H 40250 29775 50  0001 C CNN
+F 1 "GND" H 40375 29950 50  0000 C CNN
+F 2 "" H 40250 30025 50  0001 C CNN
+F 3 "" H 40250 30025 50  0001 C CNN
+	1    40250 30025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB:LF13201 E_?
+U 2 1 651E77E6
+P 39875 29250
+AR Path="/638E8E88/651E77E6" Ref="E_?"  Part="2" 
+AR Path="/651E77E6" Ref="E_10"  Part="2" 
+F 0 "E_10" H 39875 29125 50  0000 C CNN
+F 1 "LF13201" H 40150 29300 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:DIP16" H 39875 29250 60  0001 C CNN
+F 3 "" H 39875 29250 60  0001 C CNN
+	2    39875 29250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	40250 29475 40500 29475
+Wire Wire Line
+	40575 29550 40825 29550
+Wire Wire Line
+	40250 29975 40575 29975
+Wire Wire Line
+	40250 29975 40250 30025
+Wire Wire Line
+	32975 30525 33100 30525
+Text GLabel 32975 30525 0    50   Input ~ 0
+INVERTY
+Wire Wire Line
+	33600 28700 33600 29350
+Connection ~ 33600 29350
+Wire Wire Line
+	33600 29350 33600 29950
+Text GLabel 27550 30375 0    50   Input ~ 0
+DVY2
+Wire Wire Line
+	40500 28675 40750 28675
+$Comp
+L quantum_arcade_pcb:MC1495LA C_12
+U 1 1 656F976A
+P 35725 28775
+F 0 "C_12" H 35625 28850 50  0000 L CNN
+F 1 "MC1495LA" H 35525 28725 50  0000 L CNN
+F 2 "" H 35725 28775 50  0001 C CNN
+F 3 "" H 35725 28775 50  0001 C CNN
+	1    35725 28775
+	1    0    0    -1  
+$EndComp
+$Comp
+L quantum_arcade_pcb:MC1495LB B_12
+U 1 1 656FB2E2
+P 35725 31300
+F 0 "B_12" H 35625 31350 50  0000 L CNN
+F 1 "MC1495LB" H 35525 31250 50  0000 L CNN
+F 2 "" H 35725 31300 50  0001 C CNN
+F 3 "" H 35725 31300 50  0001 C CNN
+	1    35725 31300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 657F9930
+P 34900 28625
+AR Path="/638E8E88/657F9930" Ref="R?"  Part="1" 
+AR Path="/657F9930" Ref="R59"  Part="1" 
+F 0 "R59" V 34825 28625 50  0000 C CNN
+F 1 "470" V 34900 28625 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 34830 28625 50  0001 C CNN
+F 3 "" H 34900 28625 50  0001 C CNN
+	1    34900 28625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	35175 28625 35050 28625
+Wire Wire Line
+	34750 28625 34300 28625
+Wire Wire Line
+	34300 28625 34300 29350
+$Comp
+L Device:R R?
+U 1 1 65955D43
+P 34300 29775
+AR Path="/638E8E88/65955D43" Ref="R?"  Part="1" 
+AR Path="/65955D43" Ref="R62"  Part="1" 
+F 0 "R62" V 34225 29575 50  0000 C CNN
+F 1 "470" V 34300 29775 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 34230 29775 50  0001 C CNN
+F 3 "" H 34300 29775 50  0001 C CNN
+	1    34300 29775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	33600 29350 34300 29350
+Wire Wire Line
+	34300 29625 34300 29350
+Connection ~ 34300 29350
+Wire Wire Line
+	35175 31150 35075 31150
+Wire Wire Line
+	34300 31150 34300 29925
+Wire Wire Line
+	35175 31350 35075 31350
+Wire Wire Line
+	35075 31350 35075 31150
+Connection ~ 35075 31150
+Wire Wire Line
+	35075 31150 34300 31150
+$Comp
+L Device:R R?
+U 1 1 65B2B4B0
+P 34600 31450
+AR Path="/638E8E88/65B2B4B0" Ref="R?"  Part="1" 
+AR Path="/65B2B4B0" Ref="R78"  Part="1" 
+F 0 "R78" V 34675 31450 50  0000 C CNN
+F 1 "3.9k" V 34600 31450 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 34530 31450 50  0001 C CNN
+F 3 "" H 34600 31450 50  0001 C CNN
+	1    34600 31450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	35175 31450 34950 31450
+Wire Wire Line
+	35175 31250 34950 31250
+Wire Wire Line
+	34950 31250 34950 31450
+Connection ~ 34950 31450
+Wire Wire Line
+	34950 31450 34750 31450
+$Comp
+L power:GND #PWR?
+U 1 1 65C18EE7
+P 34350 31475
+AR Path="/638E8E88/65C18EE7" Ref="#PWR?"  Part="1" 
+AR Path="/65C18EE7" Ref="#PWR0265"  Part="1" 
+F 0 "#PWR0265" H 34350 31225 50  0001 C CNN
+F 1 "GND" H 34350 31325 50  0000 C CNN
+F 2 "" H 34350 31475 50  0001 C CNN
+F 3 "" H 34350 31475 50  0001 C CNN
+	1    34350 31475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	34450 31450 34350 31450
+Wire Wire Line
+	34350 31450 34350 31475
+Wire Wire Line
+	35175 28725 35125 28725
+Wire Wire Line
+	35125 28725 35125 28925
+$Comp
+L Device:R R?
+U 1 1 65D0CCF2
+P 35125 29150
+AR Path="/638E8E88/65D0CCF2" Ref="R?"  Part="1" 
+AR Path="/65D0CCF2" Ref="R63"  Part="1" 
+F 0 "R63" V 35050 29150 50  0000 C CNN
+F 1 "470" V 35125 29150 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35055 29150 50  0001 C CNN
+F 3 "" H 35125 29150 50  0001 C CNN
+	1    35125 29150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	35125 28925 35175 28925
+Wire Wire Line
+	35125 29000 35125 28925
+Connection ~ 35125 28925
+$Comp
+L power:GND #PWR?
+U 1 1 65E0041D
+P 35125 29300
+AR Path="/638E8E88/65E0041D" Ref="#PWR?"  Part="1" 
+AR Path="/65E0041D" Ref="#PWR0266"  Part="1" 
+F 0 "#PWR0266" H 35125 29050 50  0001 C CNN
+F 1 "GND" H 35125 29150 50  0000 C CNN
+F 2 "" H 35125 29300 50  0001 C CNN
+F 3 "" H 35125 29300 50  0001 C CNN
+	1    35125 29300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65E0195B
+P 34925 29150
+AR Path="/638E8E88/65E0195B" Ref="R?"  Part="1" 
+AR Path="/65E0195B" Ref="R61"  Part="1" 
+F 0 "R61" V 34850 29150 50  0000 C CNN
+F 1 "680" V 34925 29150 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 34855 29150 50  0001 C CNN
+F 3 "" H 34925 29150 50  0001 C CNN
+	1    34925 29150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65E021CA
+P 34700 29150
+AR Path="/638E8E88/65E021CA" Ref="R?"  Part="1" 
+AR Path="/65E021CA" Ref="R60"  Part="1" 
+F 0 "R60" V 34625 29150 50  0000 C CNN
+F 1 "2.7k" V 34700 29150 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 34630 29150 50  0001 C CNN
+F 3 "" H 34700 29150 50  0001 C CNN
+	1    34700 29150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65E03AE3
+P 34925 29300
+AR Path="/638E8E88/65E03AE3" Ref="#PWR?"  Part="1" 
+AR Path="/65E03AE3" Ref="#PWR0267"  Part="1" 
+F 0 "#PWR0267" H 34925 29050 50  0001 C CNN
+F 1 "GND" H 34925 29150 50  0000 C CNN
+F 2 "" H 34925 29300 50  0001 C CNN
+F 3 "" H 34925 29300 50  0001 C CNN
+	1    34925 29300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	34925 29000 34925 28825
+Wire Wire Line
+	34925 28825 35175 28825
+Wire Wire Line
+	34925 28825 34700 28825
+Wire Wire Line
+	34700 28825 34700 29000
+Connection ~ 34925 28825
+Text GLabel 34700 29375 3    50   Input ~ 0
+XCOR
+Wire Wire Line
+	34700 29300 34700 29375
+$Comp
+L Device:R R?
+U 1 1 65F74BED
+P 35475 28225
+AR Path="/638E8E88/65F74BED" Ref="R?"  Part="1" 
+AR Path="/65F74BED" Ref="R64"  Part="1" 
+F 0 "R64" V 35400 28225 50  0000 C CNN
+F 1 "2.2k" V 35475 28225 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35405 28225 50  0001 C CNN
+F 3 "" H 35475 28225 50  0001 C CNN
+	1    35475 28225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65F74F85
+P 35975 28225
+AR Path="/638E8E88/65F74F85" Ref="R?"  Part="1" 
+AR Path="/65F74F85" Ref="R65"  Part="1" 
+F 0 "R65" V 35900 28225 50  0000 C CNN
+F 1 "3.9k" V 35975 28225 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35905 28225 50  0001 C CNN
+F 3 "" H 35975 28225 50  0001 C CNN
+	1    35975 28225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	35825 28225 35825 28425
+Wire Wire Line
+	35625 28225 35625 28425
+Wire Wire Line
+	35325 28225 35325 28350
+Wire Wire Line
+	35325 28350 35425 28350
+Wire Wire Line
+	35425 28350 35425 28425
+Wire Wire Line
+	36125 28225 36125 28350
+Wire Wire Line
+	36125 28350 36025 28350
+Wire Wire Line
+	36025 28350 36025 28425
+$Comp
+L power:+6V #PWR0268
+U 1 1 6637C2AE
+P 35625 29125
+F 0 "#PWR0268" H 35625 28975 50  0001 C CNN
+F 1 "+6V" H 35640 29298 50  0000 C CNN
+F 2 "" H 35625 29125 50  0001 C CNN
+F 3 "" H 35625 29125 50  0001 C CNN
+	1    35625 29125
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-15V #PWR0269
+U 1 1 6637D24D
+P 35825 29125
+F 0 "#PWR0269" H 35825 29225 50  0001 C CNN
+F 1 "-15V" H 35840 29298 50  0000 C CNN
+F 2 "" H 35825 29125 50  0001 C CNN
+F 3 "" H 35825 29125 50  0001 C CNN
+	1    35825 29125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6637D6BE
+P 36025 29275
+AR Path="/638E8E88/6637D6BE" Ref="R?"  Part="1" 
+AR Path="/6637D6BE" Ref="R67"  Part="1" 
+F 0 "R67" V 35950 29275 50  0000 C CNN
+F 1 "10k" V 36025 29275 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35955 29275 50  0001 C CNN
+F 3 "" H 36025 29275 50  0001 C CNN
+	1    36025 29275
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6637E328
+P 36025 29425
+AR Path="/638E8E88/6637E328" Ref="#PWR?"  Part="1" 
+AR Path="/6637E328" Ref="#PWR0270"  Part="1" 
+F 0 "#PWR0270" H 36025 29175 50  0001 C CNN
+F 1 "GND" H 36025 29275 50  0000 C CNN
+F 2 "" H 36025 29425 50  0001 C CNN
+F 3 "" H 36025 29425 50  0001 C CNN
+	1    36025 29425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6637E7A8
+P 35425 29275
+AR Path="/638E8E88/6637E7A8" Ref="R?"  Part="1" 
+AR Path="/6637E7A8" Ref="R66"  Part="1" 
+F 0 "R66" V 35350 29275 50  0000 C CNN
+F 1 "3.9k" V 35425 29275 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35355 29275 50  0001 C CNN
+F 3 "" H 35425 29275 50  0001 C CNN
+	1    35425 29275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Star_Wars_Vector_PCB-rescue:POT R?
+U 1 1 6637F625
+P 35425 29675
+AR Path="/638E8E88/6637F625" Ref="R?"  Part="1" 
+AR Path="/6637F625" Ref="R68"  Part="1" 
+F 0 "R68" V 35350 29675 50  0000 C CNN
+F 1 "10k" V 35425 29675 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:PotBlk" H 35425 29675 50  0001 C CNN
+F 3 "" H 35425 29675 50  0001 C CNN
+	1    35425 29675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	35425 29525 35425 29425
+$Comp
+L power:GND #PWR?
+U 1 1 663FB6BE
+P 35425 29925
+AR Path="/638E8E88/663FB6BE" Ref="#PWR?"  Part="1" 
+AR Path="/663FB6BE" Ref="#PWR0271"  Part="1" 
+F 0 "#PWR0271" H 35425 29675 50  0001 C CNN
+F 1 "GND" H 35425 29775 50  0000 C CNN
+F 2 "" H 35425 29925 50  0001 C CNN
+F 3 "" H 35425 29925 50  0001 C CNN
+	1    35425 29925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	35425 29825 35425 29875
+Wire Wire Line
+	35425 29875 35275 29875
+Wire Wire Line
+	35275 29875 35275 29675
+Connection ~ 35425 29875
+Wire Wire Line
+	35425 29875 35425 29925
+$Comp
+L Device:R R?
+U 1 1 664EF4E9
+P 35475 30825
+AR Path="/638E8E88/664EF4E9" Ref="R?"  Part="1" 
+AR Path="/664EF4E9" Ref="R76"  Part="1" 
+F 0 "R76" V 35400 30825 50  0000 C CNN
+F 1 "1.2k" V 35475 30825 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35405 30825 50  0001 C CNN
+F 3 "" H 35475 30825 50  0001 C CNN
+	1    35475 30825
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 664EFD83
+P 35975 30825
+AR Path="/638E8E88/664EFD83" Ref="R?"  Part="1" 
+AR Path="/664EFD83" Ref="R77"  Part="1" 
+F 0 "R77" V 35900 30825 50  0000 C CNN
+F 1 "2.2k" V 35975 30825 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35905 30825 50  0001 C CNN
+F 3 "" H 35975 30825 50  0001 C CNN
+	1    35975 30825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	35625 30825 35625 30950
+Wire Wire Line
+	35325 30825 35325 30900
+Wire Wire Line
+	35325 30900 35425 30900
+Wire Wire Line
+	35425 30900 35425 30950
+Wire Wire Line
+	36125 30825 36125 30900
+Wire Wire Line
+	36125 30900 36025 30900
+Wire Wire Line
+	36025 30900 36025 30950
+Wire Wire Line
+	35825 30825 35825 30950
+$Comp
+L Device:R R?
+U 1 1 666DE205
+P 35475 30600
+AR Path="/638E8E88/666DE205" Ref="R?"  Part="1" 
+AR Path="/666DE205" Ref="R75"  Part="1" 
+F 0 "R75" V 35400 30600 50  0000 C CNN
+F 1 "100k" V 35475 30600 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35405 30600 50  0001 C CNN
+F 3 "" H 35475 30600 50  0001 C CNN
+	1    35475 30600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	35625 30600 35625 30825
+Connection ~ 35625 30825
+Wire Wire Line
+	35325 30600 35325 30825
+Connection ~ 35325 30825
+Text Notes 35225 30475 0    50   ~ 0
+NOT LOADED
+$Comp
+L Device:C C?
+U 1 1 667DA18B
+P 35875 30600
+AR Path="/638E8E88/667DA18B" Ref="C?"  Part="1" 
+AR Path="/667DA18B" Ref="C32"  Part="1" 
+F 0 "C32" V 35825 30675 50  0000 L CNN
+F 1 "100pf" V 35925 30675 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 35913 30450 50  0001 C CNN
+F 3 "" H 35875 30600 50  0001 C CNN
+	1    35875 30600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	35725 30600 35625 30600
+Connection ~ 35625 30600
+$Comp
+L power:+6V #PWR0272
+U 1 1 6685B5F4
+P 36200 30600
+F 0 "#PWR0272" H 36200 30450 50  0001 C CNN
+F 1 "+6V" V 36215 30728 50  0000 L CNN
+F 2 "" H 36200 30600 50  0001 C CNN
+F 3 "" H 36200 30600 50  0001 C CNN
+	1    36200 30600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	36200 30600 36025 30600
+Wire Notes Line
+	35700 30375 35700 30700
+Wire Notes Line
+	35700 30700 35200 30700
+Wire Notes Line
+	35200 30700 35200 30375
+Wire Notes Line
+	35200 30375 35700 30375
+$Comp
+L Device:R R?
+U 1 1 66958DDC
+P 35100 31775
+AR Path="/638E8E88/66958DDC" Ref="R?"  Part="1" 
+AR Path="/66958DDC" Ref="R79"  Part="1" 
+F 0 "R79" V 35175 31775 50  0000 C CNN
+F 1 "3.9k" V 35100 31775 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 35030 31775 50  0001 C CNN
+F 3 "" H 35100 31775 50  0001 C CNN
+	1    35100 31775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	35425 31650 35425 31775
+Wire Wire Line
+	35425 31775 35250 31775
+Wire Wire Line
+	35625 31650 35625 31775
+Wire Wire Line
+	35625 31775 35425 31775
+Connection ~ 35425 31775
+$Comp
+L power:GND #PWR?
+U 1 1 66A56A33
+P 34900 31850
+AR Path="/638E8E88/66A56A33" Ref="#PWR?"  Part="1" 
+AR Path="/66A56A33" Ref="#PWR0273"  Part="1" 
+F 0 "#PWR0273" H 34900 31600 50  0001 C CNN
+F 1 "GND" H 34900 31700 50  0000 C CNN
+F 2 "" H 34900 31850 50  0001 C CNN
+F 3 "" H 34900 31850 50  0001 C CNN
+	1    34900 31850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	34950 31775 34900 31775
+Wire Wire Line
+	34900 31775 34900 31850
+$Comp
+L power:+6V #PWR0274
+U 1 1 66AD818F
+P 35825 31650
+F 0 "#PWR0274" H 35825 31500 50  0001 C CNN
+F 1 "+6V" H 35840 31823 50  0000 C CNN
+F 2 "" H 35825 31650 50  0001 C CNN
+F 3 "" H 35825 31650 50  0001 C CNN
+	1    35825 31650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-15V #PWR0275
+U 1 1 66AD9E58
+P 36025 31775
+F 0 "#PWR0275" H 36025 31875 50  0001 C CNN
+F 1 "-15V" H 36040 31948 50  0000 C CNN
+F 2 "" H 36025 31775 50  0001 C CNN
+F 3 "" H 36025 31775 50  0001 C CNN
+	1    36025 31775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	36025 31650 36025 31700
+$Comp
+L Device:C C?
+U 1 1 66B5BC76
+P 36250 31700
+AR Path="/638E8E88/66B5BC76" Ref="C?"  Part="1" 
+AR Path="/66B5BC76" Ref="C34"  Part="1" 
+F 0 "C34" V 36325 31750 50  0000 L CNN
+F 1 ".1uF" V 36200 31750 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 36288 31550 50  0001 C CNN
+F 3 "" H 36250 31700 50  0001 C CNN
+	1    36250 31700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	36100 31700 36025 31700
+Connection ~ 36025 31700
+Wire Wire Line
+	36025 31700 36025 31775
+$Comp
+L power:GND #PWR?
+U 1 1 66BDD782
+P 36525 31750
+AR Path="/638E8E88/66BDD782" Ref="#PWR?"  Part="1" 
+AR Path="/66BDD782" Ref="#PWR0276"  Part="1" 
+F 0 "#PWR0276" H 36525 31500 50  0001 C CNN
+F 1 "GND" H 36525 31600 50  0000 C CNN
+F 2 "" H 36525 31750 50  0001 C CNN
+F 3 "" H 36525 31750 50  0001 C CNN
+	1    36525 31750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	36400 31700 36525 31700
+Wire Wire Line
+	36525 31700 36525 31750
+$Comp
+L Device:R R?
+U 1 1 66C609FB
+P 36525 31350
+AR Path="/638E8E88/66C609FB" Ref="R?"  Part="1" 
+AR Path="/66C609FB" Ref="R80"  Part="1" 
+F 0 "R80" V 36605 31350 50  0000 C CNN
+F 1 "1k" V 36525 31350 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 36455 31350 50  0001 C CNN
+F 3 "" H 36525 31350 50  0001 C CNN
+	1    36525 31350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	36525 31200 36275 31200
+Wire Wire Line
+	36525 31500 36375 31500
+Wire Wire Line
+	36375 31500 36375 31400
+Wire Wire Line
+	36375 31400 36275 31400
+Text GLabel 36700 31500 2    50   Input ~ 0
+YCOR
+Wire Wire Line
+	36700 31500 36525 31500
+Connection ~ 36525 31500
+$Comp
+L power:+15V #PWR0277
+U 1 1 66DEA4AC
+P 36725 31150
+F 0 "#PWR0277" H 36725 31000 50  0001 C CNN
+F 1 "+15V" H 36740 31323 50  0000 C CNN
+F 2 "" H 36725 31150 50  0001 C CNN
+F 3 "" H 36725 31150 50  0001 C CNN
+	1    36725 31150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	36525 31200 36725 31200
+Wire Wire Line
+	36725 31200 36725 31150
+Connection ~ 36525 31200
+$Comp
+L Device:C C?
+U 1 1 66E6EBC8
+P 37100 31375
+AR Path="/638E8E88/66E6EBC8" Ref="C?"  Part="1" 
+AR Path="/66E6EBC8" Ref="C33"  Part="1" 
+F 0 "C33" H 37125 31300 50  0000 L CNN
+F 1 ".1uF" H 36925 31300 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 37138 31225 50  0001 C CNN
+F 3 "" H 37100 31375 50  0001 C CNN
+	1    37100 31375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	36725 31200 37100 31200
+Wire Wire Line
+	37100 31200 37100 31225
+Connection ~ 36725 31200
+$Comp
+L power:GND #PWR?
+U 1 1 66EF317A
+P 37100 31600
+AR Path="/638E8E88/66EF317A" Ref="#PWR?"  Part="1" 
+AR Path="/66EF317A" Ref="#PWR0278"  Part="1" 
+F 0 "#PWR0278" H 37100 31350 50  0001 C CNN
+F 1 "GND" H 37100 31450 50  0000 C CNN
+F 2 "" H 37100 31600 50  0001 C CNN
+F 3 "" H 37100 31600 50  0001 C CNN
+	1    37100 31600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	37100 31525 37100 31600
+$Comp
+L power:-15V #PWR0279
+U 1 1 6700D8F4
+P 37225 28450
+F 0 "#PWR0279" H 37225 28550 50  0001 C CNN
+F 1 "-15V" H 37240 28623 50  0000 C CNN
+F 2 "" H 37225 28450 50  0001 C CNN
+F 3 "" H 37225 28450 50  0001 C CNN
+	1    37225 28450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR0280
+U 1 1 6700E374
+P 37225 29125
+F 0 "#PWR0280" H 37225 28975 50  0001 C CNN
+F 1 "+15V" H 37240 29298 50  0000 C CNN
+F 2 "" H 37225 29125 50  0001 C CNN
+F 3 "" H 37225 29125 50  0001 C CNN
+	1    37225 29125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	37575 28775 37875 28775
+Wire Wire Line
+	36975 28875 36825 28875
+$Comp
+L Device:C C?
+U 1 1 6719E8E9
+P 37425 28975
+AR Path="/638E8E88/6719E8E9" Ref="C?"  Part="1" 
+AR Path="/6719E8E9" Ref="C28"  Part="1" 
+F 0 "C28" V 37550 29025 50  0000 L CNN
+F 1 ".1uF" V 37550 28825 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 37463 28825 50  0001 C CNN
+F 3 "" H 37425 28975 50  0001 C CNN
+	1    37425 28975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	37225 28900 37225 28975
+Wire Wire Line
+	37275 28975 37225 28975
+Connection ~ 37225 28975
+Wire Wire Line
+	37225 28975 37225 29125
+$Comp
+L power:GND #PWR?
+U 1 1 672A2368
+P 37700 29025
+AR Path="/638E8E88/672A2368" Ref="#PWR?"  Part="1" 
+AR Path="/672A2368" Ref="#PWR0281"  Part="1" 
+F 0 "#PWR0281" H 37700 28775 50  0001 C CNN
+F 1 "GND" H 37700 28875 50  0000 C CNN
+F 2 "" H 37700 29025 50  0001 C CNN
+F 3 "" H 37700 29025 50  0001 C CNN
+	1    37700 29025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	37700 29025 37700 28975
+Wire Wire Line
+	37700 28975 37575 28975
+$Comp
+L Device:C C?
+U 1 1 6732354D
+P 37425 28575
+AR Path="/638E8E88/6732354D" Ref="C?"  Part="1" 
+AR Path="/6732354D" Ref="C31"  Part="1" 
+F 0 "C31" V 37300 28600 50  0000 L CNN
+F 1 ".1uF" V 37300 28425 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 37463 28425 50  0001 C CNN
+F 3 "" H 37425 28575 50  0001 C CNN
+	1    37425 28575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	37225 28450 37225 28575
+Wire Wire Line
+	37275 28575 37225 28575
+Connection ~ 37225 28575
+Wire Wire Line
+	37225 28575 37225 28650
+$Comp
+L power:GND #PWR?
+U 1 1 6742ABD3
+P 37700 28575
+AR Path="/638E8E88/6742ABD3" Ref="#PWR?"  Part="1" 
+AR Path="/6742ABD3" Ref="#PWR0282"  Part="1" 
+F 0 "#PWR0282" H 37700 28325 50  0001 C CNN
+F 1 "GND" H 37550 28525 50  0000 C CNN
+F 2 "" H 37700 28575 50  0001 C CNN
+F 3 "" H 37700 28575 50  0001 C CNN
+	1    37700 28575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	37700 28575 37575 28575
+$Comp
+L Device:R R?
+U 1 1 67533726
+P 36475 28425
+AR Path="/638E8E88/67533726" Ref="R?"  Part="1" 
+AR Path="/67533726" Ref="R69"  Part="1" 
+F 0 "R69" V 36400 28425 50  0000 C CNN
+F 1 "2.2k" V 36475 28425 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 36405 28425 50  0001 C CNN
+F 3 "" H 36475 28425 50  0001 C CNN
+	1    36475 28425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 67533F38
+P 36650 28425
+AR Path="/638E8E88/67533F38" Ref="R?"  Part="1" 
+AR Path="/67533F38" Ref="R70"  Part="1" 
+F 0 "R70" V 36575 28425 50  0000 C CNN
+F 1 "2.2k" V 36650 28425 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 36580 28425 50  0001 C CNN
+F 3 "" H 36650 28425 50  0001 C CNN
+	1    36650 28425
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+15V #PWR0283
+U 1 1 67535170
+P 36475 28175
+F 0 "#PWR0283" H 36475 28025 50  0001 C CNN
+F 1 "+15V" H 36490 28348 50  0000 C CNN
+F 2 "" H 36475 28175 50  0001 C CNN
+F 3 "" H 36475 28175 50  0001 C CNN
+	1    36475 28175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	36475 28175 36475 28225
+Wire Wire Line
+	36475 28225 36650 28225
+Wire Wire Line
+	36650 28225 36650 28275
+Connection ~ 36475 28225
+Wire Wire Line
+	36475 28225 36475 28275
+Wire Wire Line
+	36475 28575 36475 28675
+Connection ~ 36475 28675
+Wire Wire Line
+	36475 28675 36975 28675
+Wire Wire Line
+	36650 28575 36650 28875
+Connection ~ 36650 28875
+Wire Wire Line
+	36650 28875 36275 28875
+$Comp
+L Star_Wars_Vector_PCB-rescue:POT R?
+U 1 1 67744F5A
+P 36375 29675
+AR Path="/638E8E88/67744F5A" Ref="R?"  Part="1" 
+AR Path="/67744F5A" Ref="R72"  Part="1" 
+F 0 "R72" V 36300 29675 50  0000 C CNN
+F 1 "10k" V 36375 29675 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:PotBlk" H 36375 29675 50  0001 C CNN
+F 3 "" H 36375 29675 50  0001 C CNN
+	1    36375 29675
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 677488BE
+P 36375 29300
+AR Path="/638E8E88/677488BE" Ref="R?"  Part="1" 
+AR Path="/677488BE" Ref="R71"  Part="1" 
+F 0 "R71" V 36300 29300 50  0000 C CNN
+F 1 "5.6k" V 36375 29300 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 36305 29300 50  0001 C CNN
+F 3 "" H 36375 29300 50  0001 C CNN
+	1    36375 29300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	36375 29450 36375 29525
+$Comp
+L power:GND #PWR?
+U 1 1 677CE4F3
+P 36375 29925
+AR Path="/638E8E88/677CE4F3" Ref="#PWR?"  Part="1" 
+AR Path="/677CE4F3" Ref="#PWR0284"  Part="1" 
+F 0 "#PWR0284" H 36375 29675 50  0001 C CNN
+F 1 "GND" H 36375 29775 50  0000 C CNN
+F 2 "" H 36375 29925 50  0001 C CNN
+F 3 "" H 36375 29925 50  0001 C CNN
+	1    36375 29925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	36375 29825 36375 29875
+Wire Wire Line
+	36375 29875 36225 29875
+Wire Wire Line
+	36225 29875 36225 29675
+Connection ~ 36375 29875
+Wire Wire Line
+	36375 29875 36375 29925
+Wire Wire Line
+	36375 29150 36375 28675
+Connection ~ 36375 28675
+Wire Wire Line
+	36375 28675 36475 28675
+$Comp
+L Device:R R?
+U 1 1 67B86467
+P 37225 29575
+AR Path="/638E8E88/67B86467" Ref="R?"  Part="1" 
+AR Path="/67B86467" Ref="R73"  Part="1" 
+F 0 "R73" V 37150 29575 50  0000 C CNN
+F 1 "10k" V 37225 29575 50  0000 C CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" V 37155 29575 50  0001 C CNN
+F 3 "" H 37225 29575 50  0001 C CNN
+	1    37225 29575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67B86DC3
+P 37225 29850
+AR Path="/638E8E88/67B86DC3" Ref="C?"  Part="1" 
+AR Path="/67B86DC3" Ref="C29"  Part="1" 
+F 0 "C29" V 37350 29900 50  0000 L CNN
+F 1 "39pf" V 37350 29700 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 37263 29700 50  0001 C CNN
+F 3 "" H 37225 29850 50  0001 C CNN
+	1    37225 29850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 67B87737
+P 37225 30200
+AR Path="/638E8E88/67B87737" Ref="C?"  Part="1" 
+AR Path="/67B87737" Ref="C30"  Part="1" 
+F 0 "C30" V 37350 30250 50  0000 L CNN
+F 1 "100pf" V 37350 30000 50  0000 L CNN
+F 2 "Star_Wars_Vector_PCB:GenericComp" H 37263 30050 50  0001 C CNN
+F 3 "" H 37225 30200 50  0001 C CNN
+	1    37225 30200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	37875 28775 37875 29575
+Wire Wire Line
+	37875 29575 37375 29575
+Connection ~ 37875 28775
+Wire Wire Line
+	37875 28775 38025 28775
+Wire Wire Line
+	37075 29575 36825 29575
+Wire Wire Line
+	36825 29575 36825 28875
+Connection ~ 36825 28875
+Wire Wire Line
+	36825 28875 36650 28875
+Wire Wire Line
+	37075 29850 36825 29850
+Connection ~ 36825 29575
+Wire Wire Line
+	37375 29850 37875 29850
+Wire Wire Line
+	37875 29850 37875 29575
+Connection ~ 37875 29575
+Wire Wire Line
+	37375 30200 37875 30200
+Wire Wire Line
+	37875 30200 37875 29850
+Connection ~ 37875 29850
+Wire Wire Line
+	37075 30200 36825 30200
+Wire Wire Line
+	36825 29575 36825 29850
+Connection ~ 36825 29850
+Wire Wire Line
+	36825 29850 36825 30200
+Text Notes 37075 30475 0    50   ~ 0
+NOT LOADED
+Wire Notes Line
+	36775 30075 37600 30075
+Wire Notes Line
+	37600 30075 37600 30500
+Wire Notes Line
+	37600 30500 36775 30500
+Wire Notes Line
+	36775 30500 36775 30075
+Wire Notes Line
+	26700 27875 41400 27875
+Wire Notes Line
+	41400 27875 41400 32175
+Wire Notes Line
+	41400 32175 26700 32175
+Wire Notes Line
+	26700 32175 26700 27875
 $EndSCHEMATC
