@@ -8090,7 +8090,7 @@
   )
 
   (module Star_Wars_Vector_PCB:DIP8 (layer F.Cu) (tedit 5D3021CE) (tstamp 6112D986)
-    (at 227.965 84.455)
+    (at 347.345 177.165)
     (path /64DD9DDC)
     (fp_text reference D/E_12 (at 0 5.607999 180 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
