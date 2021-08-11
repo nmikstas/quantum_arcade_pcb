@@ -1,4 +1,4 @@
-17060551924413005
+17073581005266434
 Asteroids
 2N6044
 
@@ -75768,12 +75768,61 @@ varistor SIOV
 2
 2
 quantum_arcade_pcb
+BigTrans
+
+
+0
+3
+3
+quantum_arcade_pcb
+Cap1
+
+
+0
+2
+2
+quantum_arcade_pcb
+Cap2
+
+
+0
+2
+2
+quantum_arcade_pcb
+Cap3
+
+
+0
+2
+2
+quantum_arcade_pcb
+CapSmall
+
+
+0
+2
+2
+quantum_arcade_pcb
+Crystal
+
+
+0
+2
+2
+quantum_arcade_pcb
 DIP64
 
 
 0
 64
 64
+quantum_arcade_pcb
+Diode
+
+
+0
+0
+0
 quantum_arcade_pcb
 GenComp
 
@@ -75796,9 +75845,16 @@ Ind
 2
 2
 quantum_arcade_pcb
+LED
+
+
+0
+2
+2
+quantum_arcade_pcb
 TP
 
 
 0
-0
-0
+2
+2
