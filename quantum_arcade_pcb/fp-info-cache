@@ -1,4 +1,4 @@
-17073581005266434
+17075209745453954
 Asteroids
 2N6044
 
@@ -75796,6 +75796,13 @@ Cap3
 2
 2
 quantum_arcade_pcb
+CapInt
+
+
+0
+2
+2
+quantum_arcade_pcb
 CapSmall
 
 
@@ -75821,8 +75828,8 @@ Diode
 
 
 0
-0
-0
+2
+2
 quantum_arcade_pcb
 GenComp
 
