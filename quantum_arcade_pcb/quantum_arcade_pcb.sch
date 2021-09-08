@@ -12045,7 +12045,7 @@ F 3 "" H 9075 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8750 7500 0    50   Input ~ 0
-~POR
+POR
 Text GLabel 8750 7300 0    50   Input ~ 0
 UPDATE
 $Comp
@@ -17314,8 +17314,6 @@ Text GLabel 27025 27000 0    50   Input ~ 0
 3M
 Wire Wire Line
 	27125 27000 27025 27000
-NoConn ~ 26525 24350
-NoConn ~ 26525 24150
 $Comp
 L quantum_arcade_pcb:LS175 F_8
 U 1 1 EC7C171C
@@ -17337,24 +17335,6 @@ Text GLabel 25475 25125 0    50   Input ~ 0
 Z0
 Wire Wire Line
 	25550 23750 26525 23750
-Wire Wire Line
-	25550 23950 25950 23950
-Wire Wire Line
-	25950 23950 25950 23850
-Wire Wire Line
-	25950 23850 26525 23850
-Wire Wire Line
-	25550 24150 26000 24150
-Wire Wire Line
-	26000 24150 26000 23950
-Wire Wire Line
-	26000 23950 26525 23950
-Wire Wire Line
-	26075 24350 26075 24050
-Wire Wire Line
-	26075 24050 26525 24050
-Wire Wire Line
-	25550 24350 26075 24350
 NoConn ~ 25550 23850
 NoConn ~ 25550 24050
 NoConn ~ 25550 24250
@@ -17397,7 +17377,7 @@ Wire Wire Line
 Wire Wire Line
 	24650 23225 24650 23300
 Text GLabel 23325 23125 0    50   Input ~ 0
-~DVY11
+DVY11
 Text GLabel 23325 23325 0    50   Input ~ 0
 ~STATCLK
 Text GLabel 24150 23950 0    50   Input ~ 0
@@ -18558,9 +18538,9 @@ Wire Wire Line
 Connection ~ 34750 4625
 Text GLabel 33300 4325 0    50   Input ~ 0
 SCALE
-Text GLabel 33300 4775 0    50   Input ~ 0
-CNTR
 Text GLabel 33300 4925 0    50   Input ~ 0
+CNTR
+Text GLabel 33300 4775 0    50   Input ~ 0
 VCTR
 $Comp
 L Star_Wars_Vector_PCB:LS86 K_10
@@ -19932,4 +19912,18 @@ F 3 "" H 33750 30525 50  0001 C CNN
 $EndComp
 NoConn ~ 45725 26550
 NoConn ~ 44825 26550
+Text GLabel 18300 3750 2    50   Input ~ 0
+POR
+Wire Wire Line
+	18300 3750 18300 4000
+Text GLabel 26525 23850 0    50   Input ~ 0
+Z3
+Wire Wire Line
+	25550 23950 26525 23950
+Text GLabel 26525 24050 0    50   Input ~ 0
+Z2
+Wire Wire Line
+	25550 24350 26525 24350
+Wire Wire Line
+	25550 24150 26525 24150
 $EndSCHEMATC
