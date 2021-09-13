@@ -15524,7 +15524,7 @@ Wire Wire Line
 	42375 25225 42325 25225
 Connection ~ 42325 25225
 Text GLabel 35525 26225 0    50   Input ~ 0
-DVG7
+DVY7
 Wire Wire Line
 	36000 26225 35525 26225
 Wire Wire Line
@@ -18512,7 +18512,7 @@ Wire Wire Line
 Wire Wire Line
 	34750 4625 34750 4525
 Text GLabel 34225 3875 0    50   Input ~ 0
-OP0
+~OP0
 Text GLabel 34225 4025 0    50   Input ~ 0
 ~STROBE0
 $Comp
