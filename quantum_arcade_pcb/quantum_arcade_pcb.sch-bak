@@ -12164,8 +12164,6 @@ Wire Wire Line
 	10700 9050 10700 9575
 Wire Wire Line
 	10700 9575 9825 9575
-Text GLabel 8375 9675 0    50   Input ~ 0
-~WEL
 Wire Wire Line
 	8625 9675 8375 9675
 Text Notes 10375 7600 0    100  ~ 20
@@ -17377,7 +17375,7 @@ Wire Wire Line
 Wire Wire Line
 	24650 23225 24650 23300
 Text GLabel 23325 23125 0    50   Input ~ 0
-~DVY11
+DVY11
 Text GLabel 23325 23325 0    50   Input ~ 0
 ~STATCLK
 Text GLabel 24150 23950 0    50   Input ~ 0
@@ -19926,4 +19924,6 @@ Wire Wire Line
 	25550 24350 26525 24350
 Wire Wire Line
 	25550 24150 26525 24150
+Text GLabel 8375 9675 0    50   Input ~ 0
+~WEL
 $EndSCHEMATC

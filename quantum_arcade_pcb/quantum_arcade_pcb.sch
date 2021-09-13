@@ -3947,11 +3947,6 @@ Wire Wire Line
 Wire Wire Line
 	30150 10950 30150 10425
 Connection ~ 30150 10425
-Wire Wire Line
-	30725 11575 30150 11575
-Wire Wire Line
-	30150 11575 30150 10950
-Connection ~ 30150 10950
 Text GLabel 30725 10625 0    50   Input ~ 0
 ~LDS
 Text GLabel 30725 11375 0    50   Input ~ 0
@@ -12164,8 +12159,6 @@ Wire Wire Line
 	10700 9050 10700 9575
 Wire Wire Line
 	10700 9575 9825 9575
-Text GLabel 8375 9675 0    50   Input ~ 0
-~WEL
 Wire Wire Line
 	8625 9675 8375 9675
 Text Notes 10375 7600 0    100  ~ 20
@@ -12247,7 +12240,7 @@ Wire Wire Line
 Wire Wire Line
 	29350 20525 28975 20525
 Text GLabel 27775 20425 0    50   Input ~ 0
-R\~W~B
+~WEL
 Text GLabel 27775 20625 0    50   Input ~ 0
 ~CONTROL
 $Comp
@@ -19926,4 +19919,8 @@ Wire Wire Line
 	25550 24350 26525 24350
 Wire Wire Line
 	25550 24150 26525 24150
+Text GLabel 8375 9675 0    50   Input ~ 0
+~WEL
+Text GLabel 30725 11575 0    50   Input ~ 0
+~WEL
 $EndSCHEMATC
