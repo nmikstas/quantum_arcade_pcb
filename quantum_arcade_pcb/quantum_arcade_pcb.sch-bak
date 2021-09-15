@@ -15634,7 +15634,7 @@ Wire Wire Line
 Wire Wire Line
 	38875 26125 38825 26125
 Text GLabel 38400 26225 0    50   Input ~ 0
-DVG3
+DVY3
 Wire Wire Line
 	38875 26225 38400 26225
 Wire Wire Line
@@ -16039,10 +16039,6 @@ Wire Wire Line
 	11700 4325 11700 4400
 Wire Wire Line
 	11700 4400 11600 4400
-Text GLabel 11600 1000 0    50   Input ~ 0
-PR222
-Wire Wire Line
-	11700 1000 11600 1000
 NoConn ~ 12550 1750
 NoConn ~ 12550 3275
 NoConn ~ 12550 3475
@@ -18512,7 +18508,7 @@ Wire Wire Line
 Wire Wire Line
 	34750 4625 34750 4525
 Text GLabel 34225 3875 0    50   Input ~ 0
-OP0
+~OP0
 Text GLabel 34225 4025 0    50   Input ~ 0
 ~STROBE0
 $Comp
@@ -19923,4 +19919,5 @@ Text GLabel 8375 9675 0    50   Input ~ 0
 ~WEL
 Text GLabel 30725 11575 0    50   Input ~ 0
 ~WEL
+NoConn ~ 11700 1000
 $EndSCHEMATC

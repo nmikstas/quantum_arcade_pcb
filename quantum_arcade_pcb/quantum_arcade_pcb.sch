@@ -15634,7 +15634,7 @@ Wire Wire Line
 Wire Wire Line
 	38875 26125 38825 26125
 Text GLabel 38400 26225 0    50   Input ~ 0
-DVG3
+DVY3
 Wire Wire Line
 	38875 26225 38400 26225
 Wire Wire Line
@@ -16039,10 +16039,6 @@ Wire Wire Line
 	11700 4325 11700 4400
 Wire Wire Line
 	11700 4400 11600 4400
-Text GLabel 11600 1000 0    50   Input ~ 0
-PR222
-Wire Wire Line
-	11700 1000 11600 1000
 NoConn ~ 12550 1750
 NoConn ~ 12550 3275
 NoConn ~ 12550 3475
@@ -16914,7 +16910,7 @@ $EndComp
 Wire Wire Line
 	20125 15725 20125 13825
 Wire Wire Line
-	20125 13825 22925 13825
+	20125 13825 20775 13825
 Connection ~ 20125 15725
 Wire Wire Line
 	20250 15825 20250 13925
@@ -17011,12 +17007,7 @@ Wire Wire Line
 Text GLabel 14625 12200 0    50   Input ~ 0
 ~V68K
 Wire Wire Line
-	17625 12650 17625 11725
-Wire Wire Line
-	17625 11725 14625 11725
-Wire Wire Line
 	14625 11725 14625 12000
-Connection ~ 17625 12650
 Text GLabel 14625 12525 0    50   Input ~ 0
 1.5M
 Text Notes 16700 11550 0    100  ~ 20
@@ -19923,4 +19914,16 @@ Text GLabel 8375 9675 0    50   Input ~ 0
 ~WEL
 Text GLabel 30725 11575 0    50   Input ~ 0
 ~WEL
+NoConn ~ 11700 1000
+Wire Wire Line
+	19550 11725 19550 12650
+Wire Wire Line
+	19550 12650 20775 12650
+Wire Wire Line
+	20775 12650 20775 13825
+Wire Wire Line
+	14625 11725 19550 11725
+Connection ~ 20775 13825
+Wire Wire Line
+	20775 13825 22925 13825
 $EndSCHEMATC
