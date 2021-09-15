@@ -18471,7 +18471,7 @@ F 3 "" H 34825 3700 300 0001 C CNN
 $EndComp
 NoConn ~ 35375 4025
 Text GLabel 34750 3375 0    50   Input ~ 0
-PR221
+PR219
 $Comp
 L Star_Wars_Vector_PCB:LS00 F_6
 U 2 1 71368C0A
