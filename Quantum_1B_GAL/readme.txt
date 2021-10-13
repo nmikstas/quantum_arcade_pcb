@@ -1,0 +1,1 @@
+The following folder contains a WinCUPL source file for the logic in the Quantum IC at location 1B. The file is for a GAL16V8A. There is also a JED file for programming. Programming the GAL IC can be done with a TL866 universal programmer.
