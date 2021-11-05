@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -14083,10 +14083,10 @@
       (net 3 YOUT))
   )
 
-  (gr_text "Designed By Nick Mikstas" (at 296.545 51.435) (layer F.SilkS) (tstamp 61416761)
+  (gr_text "Designed By Nick Mikstas and Rotormoshun 2021" (at 284.48 51.435) (layer F.SilkS) (tstamp 61416761)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Designed By Nick Mikstas" (at 296.545 51.435) (layer F.Cu)
+  (gr_text "Designed By Nick Mikstas and Rotormoshun 2021" (at 284.48 51.435) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "X LINEARITY" (at 222.885 109.22 90) (layer F.SilkS)
@@ -26374,7 +26374,7 @@
   (segment (start 157.48 278.13) (end 157.48 276.987) (width 0.381) (layer B.Cu) (net 469))
   (segment (start 157.48 276.987) (end 157.48 270.51) (width 0.381) (layer B.Cu) (net 469))
   (segment (start 157.48 270.51) (end 157.48 270.51) (width 0.381) (layer B.Cu) (net 469) (tstamp 617D0339))
-  (via (at 157.48 270.51) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 469))
+  (via (at 157.48 270.51) (size 1.524) (drill 1.016) (layers F.Cu B.Cu) (net 469) (status 1000000))
   (segment (start 157.48 270.51) (end 157.48 271.145) (width 0.381) (layer F.Cu) (net 469))
   (segment (start 157.48 271.145) (end 172.085 271.145) (width 0.381) (layer F.Cu) (net 469))
   (segment (start 172.085 271.145) (end 172.085 272.415) (width 0.381) (layer F.Cu) (net 469))

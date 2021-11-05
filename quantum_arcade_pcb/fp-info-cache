@@ -1,4 +1,4 @@
-17076845816121303
+17077608282029091
 Asteroids
 2N6044
 
@@ -81,7 +81,7 @@ Edge_Connector
 
 
 0
-44
+88
 44
 Asteroids
 Electrolytic1
@@ -51673,6 +51673,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Logo
+Taito
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69397,41 +69404,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Star_Wars_Main_PCB
-Aud_Con
-
-
-0
-8
-8
-Star_Wars_Main_PCB
-Cap1
-
-
-0
-2
-2
-Star_Wars_Main_PCB
-DIP28
-
-
-0
-28
-28
-Star_Wars_Main_PCB
-Ind
-
-
-0
-2
-2
-Star_Wars_Main_PCB
-Y
-
-
-0
-3
-3
 Star_Wars_Vector_PCB
 CapBrown
 
@@ -75767,108 +75739,129 @@ varistor SIOV
 0
 2
 2
-quantum_arcade_pcb
-BigTrans
+taito_video_processor_pcb
+50Pin
 
 
 0
-3
-3
-quantum_arcade_pcb
-Cap1
-
-
-0
-2
-2
-quantum_arcade_pcb
-Cap2
+50
+50
+taito_video_processor_pcb
+CapA
 
 
 0
 2
 2
-quantum_arcade_pcb
-Cap3
+taito_video_processor_pcb
+CapB
 
 
 0
 2
 2
-quantum_arcade_pcb
-CapInt
-
-
-0
-2
-2
-quantum_arcade_pcb
-CapSmall
-
-
-0
-2
-2
-quantum_arcade_pcb
+taito_video_processor_pcb
 Crystal
 
 
 0
 2
 2
-quantum_arcade_pcb
-DIP64
-
-
-0
-64
-64
-quantum_arcade_pcb
-Diode
+taito_video_processor_pcb
+FB
 
 
 0
 2
 2
-quantum_arcade_pcb
-EdgeCon
-
-
-0
-44
-44
-quantum_arcade_pcb
-GenComp
+taito_video_processor_pcb
+GenericComp
 
 
 0
 2
 2
-quantum_arcade_pcb
-GenTrans
-
-
-0
-3
-3
-quantum_arcade_pcb
-Ind
+taito_video_processor_pcb
+JMP
 
 
 0
 2
 2
-quantum_arcade_pcb
+taito_video_processor_pcb
 LED
 
 
 0
 2
 2
-quantum_arcade_pcb
-TP
+taito_video_processor_pcb
+RP
+
+
+0
+10
+10
+taito_video_processor_pcb
+Switch
+
+
+0
+5
+3
+taito_video_processor_pcb
+TPA
+
+
+0
+1
+1
+taito_video_processor_pcb
+TPB
+
+
+0
+1
+1
+taito_video_processor_pcb
+Trans
+
+
+0
+3
+3
+taito_video_processor_pcb
+battery
 
 
 0
 2
 2
+taito_video_processor_pcb
+con_2pin
+
+
+0
+2
+2
+taito_video_processor_pcb
+con_14pin
+
+
+0
+14
+14
+taito_video_processor_pcb
+hole
+
+
+0
+0
+0
+taito_video_processor_pcb
+hole_15
+
+
+0
+1
+1
