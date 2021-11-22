@@ -1,4 +1,4 @@
-17077608282029091
+17092334741789630
 Asteroids
 2N6044
 
@@ -75747,6 +75747,13 @@ taito_video_processor_pcb
 50
 50
 taito_video_processor_pcb
+CR2032
+
+
+0
+2
+2
+taito_video_processor_pcb
 CapA
 
 
@@ -75796,6 +75803,13 @@ LED
 2
 2
 taito_video_processor_pcb
+Pushbutton
+
+
+0
+4
+4
+taito_video_processor_pcb
 RP
 
 
@@ -75838,6 +75852,13 @@ battery
 2
 2
 taito_video_processor_pcb
+complex-x
+
+
+0
+0
+0
+taito_video_processor_pcb
 con_2pin
 
 
@@ -75852,6 +75873,13 @@ con_14pin
 14
 14
 taito_video_processor_pcb
+electric-yoyo
+
+
+0
+0
+0
+taito_video_processor_pcb
 hole
 
 
@@ -75865,3 +75893,38 @@ hole_15
 0
 1
 1
+taito_video_processor_pcb
+kram
+
+
+0
+0
+0
+taito_video_processor_pcb
+qix
+
+
+0
+0
+0
+taito_video_processor_pcb
+qix-2
+
+
+0
+0
+0
+taito_video_processor_pcb
+space-dungeon
+
+
+0
+0
+0
+taito_video_processor_pcb
+zoo-keeper
+
+
+0
+0
+0
