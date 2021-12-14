@@ -1,10 +1,10 @@
 Part_ID                                                              QTY     DESC             Part_Num
 
-R20, R22, R48, R56, R57, R75, R76                                    7       Not Populated    N/A
-C5,  C6,  C7,  C22, C23, C24                                         6       Not Populated    N/A
-C_9, E_9                                                             2       Not Populated    N/A
+R20, R22, R48, R56, R57, R75, R76                                    7       Not Populated   N/A
+C5,  C6,  C7,  C22, C23, C24                                         6       Not Populated   N/A
+C_9, E_9                                                             2       Not Populated   N/A
 
-C2,   C3,   C9,   C10,  C11,  C14,  C15,  C16,  C17,  C18,           75      .1uf
+C2,   C3,   C9,   C10,  C11,  C14,  C15,  C16,  C17,  C18,           75      .1uf            Digikey 399-4454-1-ND
 C19,  C20,  C26,  C27,  C28,  C31,  C33,  C34,  C35,  C36,
 C39,  C40,  C49,  C64,  C65,  C67,  C68,  C69,  C70,  C71,
 C72,  C73,  C75,  C78,  C79,  C81,  C91,  C92,  C93,  C94,
@@ -12,92 +12,85 @@ C95,  C96,  C97,  C98,  C99,  C100, C101, C102, C103, C104,
 C105, C106, C107, C108, C109, C110, C111, C112, C113, C114,
 C115, C116, C117, C118, C119, C120, C121, C122, C123, C124,
 C125, C126, C127, C128, C129
-C52,  C53,  C54,  C55,  C56,  C57,  C58,  C59,  C60,  C62            10      1uf 50V
-C83,  C84,  C85,  C86,  C87,  C88,  C89,  C90                        8       .01uf 25V
-C13,  C30,  C32                                                      3       100pf
-C44,  C46                                                            2       100uf 35V
-C45,  C48                                                            2       22uf 25V
-C51,  C61                                                            2       1000pf 100V
-C8,   C25                                                            2       .047uF
-C12,  C29                                                            2       39pf
-C4                                                                   1       .01uF
-C21                                                                  1       .0018uF
-C37                                                                  1       150pF
-C38                                                                  1       39pF
-C41                                                                  1       .01uF
-C42                                                                  1       10pF
-C47                                                                  1       22uf 35V
-C63                                                                  1       220pf
-C74                                                                  1       1uf
-C76                                                                  1       100pf 100V
-C77                                                                  1       39pf 100V
-C80                                                                  1       .022uf
-C82                                                                  1       100uf 25V
-C130                                                                 1       .047uf
+C52,  C53,  C54,  C55,  C56,  C57,  C58,  C59,  C60,  C62,           11      1uf 50V          Digikey 1572-1280-ND
+C74
+C41,  C83,  C84,  C85,  C86,  C87,  C88,  C89,  C90                  9       .01uf            Digikey 399-4452-1-ND
+C13,  C30,  C32,  C76                                                4       100pf            Digikey BC1057CT-ND
+C12,  C29,  C38,  C77                                                4       39pf             Digikey P9633-ND
+C44,  C46,  C82                                                      2       100uf 35V        Digikey 1572-1309-ND
+C45,  C48,  C47                                                      3       22uf 25V         Digikey 1572-1393-ND
+C51,  C61                                                            2       1000pf 100V      Digikey 399-4450-1-ND
+C8,   C25                                                            2       .047uF           Digikey BC3089-ND
+C4                                                                   1       .01uF            Digikey 399-14040-1-ND
+C21                                                                  1       .0018uF          Digikey 445-173483-1-ND
+C37                                                                  1       150pF            Digikey 399-4213-ND
+C42                                                                  1       10pF             Digikey 399-14082-ND
+C63                                                                  1       220pf            Digikey 1004PHCT-ND
+C80                                                                  1       .022uf           Digikey 399-C412C223K1R5TA-ND
+C130                                                                 1       .047uf           Digikey 399-4512-1-ND
 
-CR3, CR4, CR6                                                        3       1N100
-CR1                                                                  1       1N914
-CR5                                                                  1       1N754A
-CR7                                                                  1       Blue LED
+CR3, CR4, CR6                                                        3       1N100            Digikey 2368-1N4002-ND
+CR1                                                                  1       1N914            Digikey 1N914FS-ND
+CR5                                                                  1       1N754A           Digikey 2368-1N754A-ND
+CR7                                                                  1       Blue LED         Digikey VAOL-5701SBY4-ND
 
-L2, L3, L4                                                           1       1uH
-L1                                                                   1       100uH
+L2, L3, L4                                                           1       1uH              Digikey M10137-ND
+L1                                                                   1       100uH            Digikey 78F101J-TR-RCCT-ND
 
-Q7,  Q9, Q10, Q11, Q13, Q14, Q17                                     7       2N3904
-Q8,  Q12                                                             2       2N3906
-Q15, Q16                                                             2       2N6044
+Q7,  Q9, Q10, Q11, Q13, Q14, Q17                                     7       2N3904           Digikey 2N3904TAFSCT-ND
+Q8,  Q12                                                             2       2N3906           Digikey 2N3906TAFSCT-ND
+Q15, Q16                                                             2       2N6044           Digikey BDX53BG-ND
 
-R53,  R80,  R82,  R119, R129, R147, R148, R153, R155, R156,          29      1k
+R53,  R80,  R82,  R119, R129, R147, R148, R153, R155, R156,          29      1k               Digikey 1.0KQBK-ND
 R157, R158, R159, R166, R167, R168, R169, R170, R171, R172,
 R176, R205, R210, R214, R218, R219, R220, R221, R222
-R40,  R46,  R67,  R73,  R83,  R118, R120, R121, R122, R123,          21      10k
+R40,  R46,  R67,  R73,  R83,  R118, R120, R121, R122, R123,          21      10k              Digikey 10KQBK-ND
 R124, R125, R126, R127, R128, R143, R163, R173, R177, R178,
 R215
-R142, R188, R189, R190, R191, R192, R193, R194, R195, R196,          18      4.7k
-R197, R198, R199, R200, R201, R202, R203, R217
-R32,  R33,  R38,  R51,  R59,  R62,  R63, R137, R138, R139,           16      470
+R142, R188, R189, R190, R191, R192, R193, R194, R195, R196,          19      4.7k             Digikey 4.7KQBK-ND
+R197, R198, R199, R200, R201, R202, R203, R216, R217
+R32,  R33,  R38,  R51,  R59,  R62,  R63, R137, R138, R139,           16      470              Digikey 470KQBK-ND
 R149, R151, R152, R160, R161, R162
-R36,  R44,  R45,  R50,  R64,  R69,  R70,  R77, R131, R133,           12      2.2k
-R135, R14
-R30,  R31,  R58,  R85,  R86,  R89,  R93,  R95,  R96,  R106,          12      7.5K
+R36,  R44,  R45,  R50,  R64,  R69,  R70,  R77, R131, R133,           12      2.2k             Digikey 2.2KQBK-ND
+R135, R141
+R30,  R31,  R58,  R85,  R86,  R89,  R93,  R95,  R96,  R106,          12      7.5K             Digikey 7.50KXBK-ND
 R87,  R91
-R110, R111, R112, R113, R114, R115, R116, R117, R134, R145           10      3.3k
-R180, R181, R182, R183, R184, R185, R186, R187                       8       100K
-R204, R206, R207, R208, R209, R211, R212, R213                       8       220k
-R37,  R39,  R52,  R65,  R66,  R78,  R79,  R97                        8       3.9k
-R90,  R94,  R224, R225, R226                                         5       100
-R42,  R43,  R68,  R72                                                4       10K POT
-R164, R165, R179, R223                                               4       220
-R35,  R54,  R61                                                      3       680
-R26,  R27,  R55                                                      3       820
-R47,  R74                                                            2       2K POT
-R88,  R92                                                            2       200 POT
-R130, R132                                                           2       1.8k
-R34,  R60                                                            2       2.7k
-R41,  R71                                                            2       5.6k
-R81,  R175                                                           2       15K
-R49                                                                  1       1.5k
-R84                                                                  1       560
-R108                                                                 1       270
-R136                                                                 1       6.8k
-R140                                                                 1       1.2k
-R144                                                                 1       22k
-R146                                                                 1       510
-R174                                                                 1       68k
-R216                                                                 1       4.6k
+R110, R111, R112, R113, R114, R115, R116, R117, R134, R145           10      3.3k             Digikey 3.3KQBK-ND
+R180, R181, R182, R183, R184, R185, R186, R187                       8       100K             Digikey 100KQBK-ND
+R204, R206, R207, R208, R209, R211, R212, R213                       8       220k             Digikey 100KQBK-ND
+R37,  R39,  R52,  R65,  R66,  R78,  R79,  R97                        8       3.9k             Digikey 3.9KQBK-ND
+R90,  R94,  R224, R225, R226                                         5       100              Digikey 100QBK-ND
+R42,  R43,  R68,  R72                                                4       10K POT          Digikey 3386P-103-ND‎
+R164, R165, R179, R223                                               4       220              Digikey 220QBK-ND
+R35,  R54,  R61                                                      3       680              Digikey 680QBK-ND
+R26,  R27,  R55                                                      3       820              Digikey 820QBK-ND
+R47,  R74                                                            2       2K POT           Digikey 3386P-202-ND‎
+R88,  R92                                                            2       200 POT          Digikey 3386P-201LF-ND
+R130, R132                                                           2       1.8k             Digikey 1.8kQBK-ND
+R34,  R60                                                            2       2.7k             Digikey 2.7kQBK-ND
+R41,  R71                                                            2       5.6k             Digikey 5.6kQBK-ND
+R81,  R175                                                           2       15K              Digikey 15kQBK-ND
+R49                                                                  1       1.5k             Digikey 1.5kQBK-ND
+R84                                                                  1       560              Digikey 560QBK-ND
+R108                                                                 1       270              Digikey 270QBK-ND
+R136                                                                 1       6.8k             Digikey 6.8kQBK-ND
+R140                                                                 1       1.2k             Digikey 1.2kQBK-ND
+R144                                                                 1       22k              Digikey 22kQBK-ND
+R146                                                                 1       510              Digikey 510QBK-ND
+R174                                                                 1       68k              Digikey 68kQBK-ND
 
-RV1, RV2                                                             2       VDR
+RV1, RV2                                                             2       VDR              Alan-1 VDR Replacement
 
-SW1, SW2                                                             2       SW_DIP_x08
+SW1, SW2                                                             2       SW_DIP_x08       Digikey 450-1215-ND
 
-TP+15V1, TP-15V1, TPAUD1, TPAUD2, TPBLU1,                            15      Test Point
-TPGND1, TPGND2, TPGND3, TPGRN1, TPRED1,
+TP+15V1,  TP-15V1,  TP+5V01,  TP+5V02, TP+6V81, TPAUD1, TPAUD2,      19      Test Point       Digikey WM6456-ND
+TPBLU1,   TPGND1,   TPGND2,   TPGND3,  TPGRN1,  TPRED1, TP12MHZ,
 TPRESET1, TPRESET2, TPWDDIS1, TPXOUT1, TPYOUT1
 
-VR1                                                                  1       L7815
-VR2                                                                  1       L7915
+VR1                                                                  1       L7815            Digikey 296-21624-5-ND
+VR2                                                                  1       L7915            Digikey 497-7295-5-ND‎
 
-Y1                                                                   1       12.096MHz
+Y1                                                                   1       12.096MHz        Digikey X429-ND
 
 E_2,   E_3,    F_2,    F_3,  H/J_2, H/J_3, K_2, K_3, L_2, L_3        10      8KX8_ROM
 D_5,   D_6,    E_5,    E_6,  M_2,   M_3,   N_2, N_3                  8       2KX8_RAM
@@ -130,7 +123,7 @@ B_6                                                                  1       AVG
 D_9                                                                  1       DAC_8
 F_7                                                                  1       S289
 H_5                                                                  1       LS174
-H_6                                                                  1       S129
+H_6                                                                  1       S129             Alan-1 ROM Replacement
 H_8                                                                  1       LS399
 J_5                                                                  1       S74
 J_6                                                                  1       LS42
@@ -147,3 +140,20 @@ N_7                                                                  1       LS1
 P_7                                                                  1       LS163
 P_8                                                                  1       S04
 R_3                                                                  1       X2212
+
+MISC
+-------------------
+Pastic Tabs                                                          4       Tabs             Digikey RPC1553-ND      
+Heatsink                                                             4       Heatsink         Digikey A10756-ND
+
+IC Sockets
+-------------------
+8  pin    5
+14 pin    37
+16 pin    36
+18 pin    1
+20 pin    15
+24 pin    9
+28 pin    10
+40 pin    3
+64 pin    1

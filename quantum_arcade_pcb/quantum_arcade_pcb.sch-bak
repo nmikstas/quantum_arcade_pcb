@@ -19914,7 +19914,6 @@ Text GLabel 8375 9675 0    50   Input ~ 0
 ~WEL
 Text GLabel 30725 11575 0    50   Input ~ 0
 ~WEL
-NoConn ~ 11700 1000
 Wire Wire Line
 	19550 11725 19550 12650
 Wire Wire Line
@@ -19926,4 +19925,8 @@ Wire Wire Line
 Connection ~ 20775 13825
 Wire Wire Line
 	20775 13825 22925 13825
+Text GLabel 11800 1000 2    50   Input ~ 0
+PR222
+Wire Wire Line
+	11800 1000 11700 1000
 $EndSCHEMATC

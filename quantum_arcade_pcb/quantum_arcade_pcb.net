@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\work\quantum_arcade_pcb\quantum_arcade_pcb\quantum_arcade_pcb.sch)
-    (date "10/29/2021 8:12:53 PM")
+    (date "11/30/2021 1:23:02 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -642,7 +642,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 6BD3C4E4))
     (comp (ref R216)
-      (value 4.6k)
+      (value 4.7k)
       (footprint quantum_arcade_pcb:GenComp)
       (datasheet ~)
       (libsource (lib Device) (part R_US) (description "Resistor, US symbol"))
