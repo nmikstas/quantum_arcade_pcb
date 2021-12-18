@@ -1,4 +1,4 @@
-17092334741789630
+17091585533116685
 Asteroids
 2N6044
 
@@ -81,7 +81,7 @@ Edge_Connector
 
 
 0
-88
+44
 44
 Asteroids
 Electrolytic1
@@ -51673,13 +51673,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Logo
-Taito
-
-
-0
-0
-0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69404,6 +69397,41 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Star_Wars_Main_PCB
+Aud_Con
+
+
+0
+8
+8
+Star_Wars_Main_PCB
+Cap1
+
+
+0
+2
+2
+Star_Wars_Main_PCB
+DIP28
+
+
+0
+28
+28
+Star_Wars_Main_PCB
+Ind
+
+
+0
+2
+2
+Star_Wars_Main_PCB
+Y
+
+
+0
+3
+3
 Star_Wars_Vector_PCB
 CapBrown
 
@@ -75739,190 +75767,169 @@ varistor SIOV
 0
 2
 2
-taito_video_processor_pcb
-50Pin
+quantum_arcade_pcb
+2022
 
 
 0
-50
-50
-taito_video_processor_pcb
-CR2032
+0
+0
+quantum_arcade_pcb
+BigTrans
 
 
 0
-2
-2
-taito_video_processor_pcb
-CapA
-
-
-0
-2
-2
-taito_video_processor_pcb
-CapB
+3
+3
+quantum_arcade_pcb
+Cap1
 
 
 0
 2
 2
-taito_video_processor_pcb
+quantum_arcade_pcb
+Cap2
+
+
+0
+2
+2
+quantum_arcade_pcb
+Cap3
+
+
+0
+2
+2
+quantum_arcade_pcb
+CapInt
+
+
+0
+2
+2
+quantum_arcade_pcb
+CapSmall
+
+
+0
+2
+2
+quantum_arcade_pcb
 Crystal
 
 
 0
 2
 2
-taito_video_processor_pcb
-FB
+quantum_arcade_pcb
+DIP64
+
+
+0
+64
+64
+quantum_arcade_pcb
+Diode
 
 
 0
 2
 2
-taito_video_processor_pcb
-GenericComp
+quantum_arcade_pcb
+EdgeCon
+
+
+0
+44
+44
+quantum_arcade_pcb
+GenComp
 
 
 0
 2
 2
-taito_video_processor_pcb
-JMP
+quantum_arcade_pcb
+GenTrans
+
+
+0
+3
+3
+quantum_arcade_pcb
+Ind
 
 
 0
 2
 2
-taito_video_processor_pcb
+quantum_arcade_pcb
 LED
 
 
 0
 2
 2
-taito_video_processor_pcb
-Pushbutton
-
-
-0
-4
-4
-taito_video_processor_pcb
-RP
-
-
-0
-10
-10
-taito_video_processor_pcb
-Switch
-
-
-0
-5
-3
-taito_video_processor_pcb
-TPA
-
-
-0
-1
-1
-taito_video_processor_pcb
-TPB
-
-
-0
-1
-1
-taito_video_processor_pcb
-Trans
-
-
-0
-3
-3
-taito_video_processor_pcb
-battery
+quantum_arcade_pcb
+TP
 
 
 0
 2
 2
-taito_video_processor_pcb
-complex-x
+quantum_arcade_pcb
+hackathon
 
 
 0
 0
 0
-taito_video_processor_pcb
-con_2pin
-
-
-0
-2
-2
-taito_video_processor_pcb
-con_14pin
-
-
-0
-14
-14
-taito_video_processor_pcb
-electric-yoyo
+quantum_arcade_pcb
+limited
 
 
 0
 0
 0
-taito_video_processor_pcb
-hole
+quantum_arcade_pcb
+quantum-art1
 
 
 0
 0
 0
-taito_video_processor_pcb
-hole_15
-
-
-0
-1
-1
-taito_video_processor_pcb
-kram
+quantum_arcade_pcb
+quantum-art2
 
 
 0
 0
 0
-taito_video_processor_pcb
-qix
+quantum_arcade_pcb
+quantum-art3
 
 
 0
 0
 0
-taito_video_processor_pcb
-qix-2
+quantum_arcade_pcb
+quantum-art4
 
 
 0
 0
 0
-taito_video_processor_pcb
-space-dungeon
+quantum_arcade_pcb
+quantum-logo
 
 
 0
 0
 0
-taito_video_processor_pcb
-zoo-keeper
+quantum_arcade_pcb
+quantum-marquee
 
 
 0

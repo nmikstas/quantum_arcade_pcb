@@ -17,7 +17,7 @@ C74
 C41,  C83,  C84,  C85,  C86,  C87,  C88,  C89,  C90                  9       .01uf            Digikey 399-4452-1-ND
 C13,  C30,  C32,  C76                                                4       100pf            Digikey BC1057CT-ND
 C12,  C29,  C38,  C77                                                4       39pf             Digikey P9633-ND
-C44,  C46,  C82                                                      2       100uf 35V        Digikey 1572-1309-ND
+C44,  C46,  C82                                                      3       100uf 35V        Digikey 1572-1309-ND
 C45,  C48,  C47                                                      3       22uf 25V         Digikey 1572-1393-ND
 C51,  C61                                                            2       1000pf 100V      Digikey 399-4450-1-ND
 C8,   C25                                                            2       .047uF           Digikey BC3089-ND
@@ -143,8 +143,8 @@ R_3                                                                  1       X22
 
 MISC
 -------------------
-Pastic Tabs                                                          4       Tabs             Digikey RPC1553-ND      
-Heatsink                                                             4       Heatsink         Digikey A10756-ND
+Pastic Tabs                                                          2       Tabs             Digikey RPC1553-ND      
+Heatsink                                                             2       Heatsink         Digikey A10756-ND
 
 IC Sockets
 -------------------
